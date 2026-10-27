@@ -96,6 +96,8 @@ Screenshots are committed under [`docs/screenshots`](screenshots):
 - [`manywise-community-home-390.png`](screenshots/manywise-community-home-390.png)
 - [`manywise-room-768.png`](screenshots/manywise-room-768.png)
 - [`manywise-chat-768.png`](screenshots/manywise-chat-768.png)
+- [`manywise-club-finder-1440.png`](screenshots/manywise-club-finder-1440.png)
+- [`manywise-anime-room-390.png`](screenshots/manywise-anime-room-390.png)
 - [`manywise-landing-accessibility.md`](screenshots/manywise-landing-accessibility.md)
 - [`manywise-community-home-accessibility.md`](screenshots/manywise-community-home-accessibility.md)
 
@@ -104,3 +106,18 @@ The screenshots were recaptured in a clean pointer state. The keyboard skip link
 ## Remaining limitations
 
 See the README’s **Known limitations** section. Most importantly, browser QA covered the coherent local product implementation. Provisioned Supabase policy tests, real concurrent accounts, storage abuse cases, distributed rate limiting, email flows, production export/deletion, moderation operations, backup restoration, and incident procedures remain required before launch.
+
+## After-class club update verification
+
+The later anime-club direction received a fresh production-browser pass on 27 October 2026:
+
+- 43/43 focused checks passed at 390×844, 768×900, and 1440×1000.
+- The original four-character SVG cast loaded successfully and uses no borrowed franchise assets.
+- The visible prevalence caveat says 1–2% is sample-dependent and not evidence of intelligence, worth, ranking, or superiority.
+- The three-question Clubroom Finder passed keyboard, previous, restart, result-routing, and no-profile-mutation checks.
+- Anime & Character Study, its seeded thread, the After the credits live room, onboarding interest, and spoiler/credit Community Guide language were verified.
+- Final telemetry contained 0 console errors, 0 page errors, 0 failed requests, and 0 HTTP 4xx/5xx responses across 420 request lines.
+- Contrast scans found no definite WCAG failures across 113 landing text targets and 68 chat text targets.
+- Type checking, zero-warning lint, production build, and `git diff --check` passed after browser fixes.
+
+The new visual artifacts are `manywise-club-finder-1440.png` and `manywise-anime-room-390.png` in `docs/screenshots`.

@@ -9,8 +9,8 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: { default: "Manywise — Come as nuanced as you are", template: "%s · Manywise" },
-  description: "A thoughtful, privacy-minded community for people who use INFJ as a lens for self-reflection—not a box.",
+  title: { default: "Manywise — The after-class INFJ clubroom", template: "%s · Manywise" },
+  description: "A high-craft after-class club for adults who use INFJ as a reflection lens and love anime character study, creative fandom, and meaningful conversation.",
   applicationName: "Manywise",
   category: "community",
   keywords: ["INFJ community", "thoughtful conversation", "personality reflection", "creative community", "online forum"],
@@ -18,14 +18,14 @@ export const metadata: Metadata = {
   creator: "Manywise",
   alternates: { canonical: "/" },
   openGraph: {
-    title: "Manywise — Come as nuanced as you are",
-    description: "A thoughtful community for depth without the stereotypes.",
+    title: "Manywise — Meet us after class",
+    description: "The 1–2% clubroom for INFJ reflection, original anime-inspired character study, and meaningful conversation.",
     type: "website",
     siteName: "Manywise",
     url: "/",
     images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "Manywise — many perspectives, held with care" }],
   },
-  twitter: { card: "summary_large_image", title: "Manywise", description: "Come as nuanced as you are.", images: ["/opengraph-image"] },
+  twitter: { card: "summary_large_image", title: "Manywise — Meet us after class", description: "The 1–2% clubroom. Rare does not mean ranked.", images: ["/opengraph-image"] },
   icons: { icon: "/icon.svg", apple: "/icon.svg" },
 };
 

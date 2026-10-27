@@ -8,12 +8,14 @@ Manywise is independent and is not affiliated with, endorsed by, or sponsored by
 
 ## What is implemented
 
+- Original after-class anime-club art direction with a hand-built fictional cast, notebook/poster details, qualified 1–2% identity messaging, and no borrowed franchise assets
+- Optional three-question Clubroom Finder that recommends a room without testing or verifying personality type
 - Branded public homepage, responsive at mobile, tablet, and desktop widths
 - Email/password Supabase Auth boundary plus a complete no-credential browser demo
 - Three-step onboarding: identity, avatar, interests, goals, pace, privacy, contact, and Community Guide consent
 - Finite home feed with room filters, following/recent views, keeps, thread follows, reactions, and honest empty states
 - Rich discussion composer with local drafts, image/link attachments, tags, preview, validation, and persisted demo publication
-- Eight conversation rooms, room membership, room search/sort, prompts, and room-level live entry
+- Nine conversation rooms, including Anime & Character Study, with room membership, search/sort, prompts, and room-level live entry
 - Thread detail pages with nested reply context, reactions, reporting, sharing, and member controls
 - Live-room chat with optimistic local messages, replies, reactions, approximate presence language, typing architecture, mute/leave/report/block controls, offline status, and `BroadcastChannel` cross-tab demo synchronization
 - Search across threads, rooms, and members; filters; keyboard shortcut; URL query support; declared-interest discovery
@@ -31,9 +33,11 @@ All fictional activity is explicitly development/demo content. The product makes
 ![Manywise desktop landing page](docs/screenshots/manywise-landing-1440.png)
 
 <p align="center">
-  <img src="docs/screenshots/manywise-community-home-390.png" alt="Manywise mobile community home" width="320" />
-  <img src="docs/screenshots/manywise-chat-768.png" alt="Manywise tablet live room" width="430" />
+  <img src="docs/screenshots/manywise-community-home-390.png" alt="Manywise mobile community home" width="280" />
+  <img src="docs/screenshots/manywise-anime-room-390.png" alt="Manywise mobile Anime and Character Study room" width="280" />
 </p>
+
+![Manywise Clubroom Finder](docs/screenshots/manywise-club-finder-1440.png)
 
 ## Quick start
 
@@ -130,7 +134,7 @@ Never expose a service-role credential through a `NEXT_PUBLIC_` variable. `.env*
 ## Supabase setup
 
 1. Create or link a Supabase project.
-2. Apply [`supabase/migrations/202610270001_initial_schema.sql`](supabase/migrations/202610270001_initial_schema.sql) through the Supabase CLI or SQL migration workflow.
+2. Apply every SQL file in [`supabase/migrations`](supabase/migrations) in filename order through the Supabase CLI or your migration workflow.
 3. Confirm `private` is **not** listed as a PostgREST-exposed schema.
 4. Confirm RLS remains enabled on every public application table and run allow/deny policy tests with member, steward, unrelated, blocked, and anonymous identities.
 5. Configure the site URL and callback URL (`/auth/callback`) in Supabase Auth.

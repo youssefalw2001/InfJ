@@ -9,7 +9,7 @@ import { Button } from "@/components/ui/primitives";
 import { Logo } from "@/components/ui/logo";
 import type { ProfileSettings } from "@/lib/types";
 
-const interests = ["Inner life", "Relationships", "Creative practice", "Work & purpose", "Growth", "Books & ideas", "Nature & service", "Quiet company"];
+const interests = ["Inner life", "Relationships", "Anime & character study", "Creative practice", "Work & purpose", "Growth", "Books & ideas", "Nature & service", "Quiet company"];
 const goals = ["Thoughtful conversation", "Friendship", "Creative exchange", "New perspectives", "Gentle accountability", "Simply exploring"];
 
 export default function OnboardingPage() {

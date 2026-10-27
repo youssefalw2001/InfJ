@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720" role="img" aria-labelledby="title desc">
+  <title id="title">The original Manywise after-class cast</title>
+  <desc id="desc">Four original illustrated students sharing a bright clubroom table after class.</desc>
+  <defs>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#183b34" stroke-opacity=".13"/></pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="8" dy="10" stdDeviation="0" flood-color="#183b34" flood-opacity=".23"/></filter>
+  </defs>
+  <rect width="960" height="720" fill="#f5e899"/>
+  <rect width="960" height="720" fill="url(#grid)"/>
+  <path d="M44 72h210M44 90h120M706 72h210M796 90h120" stroke="#183b34" stroke-width="4"/>
+  <text x="44" y="45" font-family="Arial,sans-serif" font-size="17" font-weight="800" letter-spacing="4" fill="#183b34">MANYWISE / CLUBROOM 01</text>
+  <text x="720" y="45" font-family="Arial,sans-serif" font-size="17" font-weight="800" letter-spacing="4" fill="#183b34">AFTER CLASS</text>
+
+  <!-- window and late afternoon -->
+  <rect x="70" y="125" width="820" height="385" rx="8" fill="#92cbd1" stroke="#183b34" stroke-width="6" filter="url(#shadow)"/>
+  <circle cx="770" cy="213" r="72" fill="#f29a77" stroke="#183b34" stroke-width="5"/>
+  <path d="M73 397c110-78 210-24 304-74 95-51 193-16 274 37 72 47 146 44 237-5v155H70z" fill="#315d51" stroke="#183b34" stroke-width="5"/>
+  <path d="M470 127v383M72 315h816" stroke="#183b34" stroke-width="5"/>
+  <path d="M695 151l30 46h-60zM175 160l18 28h-36z" fill="#fffdf8" opacity=".85"/>
+
+  <!-- seated cast, all original vector characters -->
+  <g stroke="#183b34" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+    <!-- Aya -->
+    <path d="M113 537c8-84 40-123 99-123 58 0 90 39 98 123" fill="#e77863"/>
+    <ellipse cx="211" cy="343" rx="67" ry="76" fill="#f4ba93"/>
+    <path d="M145 347c-6-87 28-133 83-124 52 9 73 57 47 122-4-50-28-63-72-55-13 22-32 41-58 57z" fill="#253b59"/>
+    <path d="M173 350h15M229 350h15"/>
+    <path d="M197 385c10 8 20 8 30 0" fill="none"/>
+    <path d="M190 417l21 24 21-24" fill="#fffdf8"/>
+    <path d="M168 465h86"/>
+
+    <!-- Ren -->
+    <path d="M300 537c8-89 42-129 104-129s96 40 104 129" fill="#8db3a4"/>
+    <ellipse cx="404" cy="338" rx="67" ry="78" fill="#d8a17f"/>
+    <path d="M337 334c2-79 30-116 85-114 42 2 68 41 50 114l-22-42-31 23-21-30-25 27-36 22z" fill="#6f4e42"/>
+    <path d="M365 347h15M423 347h15"/>
+    <path d="M386 383c12 6 24 6 36-2" fill="none"/>
+    <path d="M383 412l21 25 21-25" fill="#fffdf8"/>
+    <path d="M357 468h94"/>
+
+    <!-- Sol -->
+    <path d="M495 537c8-88 43-128 105-128 61 0 96 40 104 128" fill="#d0a74c"/>
+    <ellipse cx="600" cy="340" rx="67" ry="77" fill="#efb187"/>
+    <path d="M533 337c-2-78 31-120 91-118 53 2 69 56 45 124-13-38-33-59-62-63-21 26-45 45-74 57z" fill="#1d6062"/>
+    <path d="M559 347h15M618 347h15"/>
+    <path d="M580 383c11 7 24 7 36 0" fill="none"/>
+    <path d="M578 414l22 25 21-25" fill="#fffdf8"/>
+    <path d="M551 467h96"/>
+
+    <!-- Mika -->
+    <path d="M688 537c7-84 39-123 98-123s91 39 99 123" fill="#b489ab"/>
+    <ellipse cx="786" cy="343" rx="67" ry="76" fill="#c98e70"/>
+    <path d="M719 350c-10-83 21-127 82-129 45-1 72 42 59 111l-25-37-24 17-26-31-24 36-42 33z" fill="#412f4f"/>
+    <path d="M746 350h15M804 350h15"/>
+    <path d="M768 385c10 7 21 7 33-1" fill="none"/>
+    <path d="M765 417l21 24 22-24" fill="#fffdf8"/>
+    <path d="M741 465h88"/>
+  </g>
+
+  <!-- shared club table -->
+  <path d="M67 522h826l-42 151H109z" fill="#fffdf8" stroke="#183b34" stroke-width="7" filter="url(#shadow)"/>
+  <path d="M244 562h122l18 72H226z" fill="#dbe3db" stroke="#183b34" stroke-width="5"/>
+  <path d="M270 580h70M267 597h80M263 614h63" stroke="#55776e" stroke-width="3"/>
+  <path d="M447 563l76 12-12 68-76-12z" fill="#f29a77" stroke="#183b34" stroke-width="5"/>
+  <path d="M471 584l28 4M466 601l32 5M462 617l22 3" stroke="#183b34" stroke-width="3"/>
+  <path d="M596 569h103v64H596z" fill="#f5e899" stroke="#183b34" stroke-width="5"/>
+  <path d="M612 586h70M612 603h51M612 620h61" stroke="#183b34" stroke-width="3"/>
+  <circle cx="754" cy="598" r="30" fill="#92cbd1" stroke="#183b34" stroke-width="5"/>
+  <path d="M784 583h18v29h-18" fill="none" stroke="#183b34" stroke-width="5"/>
+
+  <g font-family="Arial,sans-serif" font-size="14" font-weight="800" letter-spacing="3" fill="#183b34">
+    <text x="135" y="694">AYA / NOTICE</text><text x="324" y="694">REN / MAKE</text><text x="525" y="694">SOL / QUESTION</text><text x="719" y="694">MIKA / REVISE</text>
+  </g>
+</svg>

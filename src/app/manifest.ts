@@ -4,7 +4,7 @@ export default function manifest(): MetadataRoute.Manifest {
   return {
     name: "Manywise",
     short_name: "Manywise",
-    description: "A thoughtful community for people who use INFJ as a lens, never a box.",
+    description: "The after-class clubroom for adults who love INFJ reflection, anime character study, and meaningful conversation.",
     start_url: "/home",
     display: "standalone",
     background_color: "#f4efe5",

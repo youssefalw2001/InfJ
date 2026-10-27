@@ -60,6 +60,10 @@ export function ManywiseProvider({ children }: { children: ReactNode }) {
         const parsed = JSON.parse(stored) as Omit<DemoState, "reports"> & { reports?: Array<ReportRecord | string> };
         restored = {
           ...parsed,
+          discussions: parsed.discussions.some((item) => item.id === "kindness-needs-boundaries") ? parsed.discussions : [defaultState.discussions[0], ...parsed.discussions],
+          replies: parsed.replies.some((item) => item.id === "r-anime-1") ? parsed.replies : [...defaultState.replies.slice(0, 2), ...parsed.replies],
+          chatMessages: parsed.chatMessages.some((item) => item.id === "m-anime-1") ? parsed.chatMessages : [...defaultState.chatMessages.slice(0, 2), ...parsed.chatMessages],
+          joinedSpaces: parsed.joinedSpaces.includes("anime-and-character-study") ? parsed.joinedSpaces : [...parsed.joinedSpaces, "anime-and-character-study"],
           contactRequests: parsed.contactRequests ?? [],
           reports: (parsed.reports ?? []).map((item) => typeof item === "string"
             ? { targetId: item, reason: "other", details: "", createdAt: "Previously submitted" }
