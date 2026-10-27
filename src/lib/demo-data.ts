@@ -11,15 +11,15 @@ export const members: Member[] = [
 ];
 
 export const spaces: Space[] = [
-  { slug: "inner-worlds", name: "Inner Worlds", label: "Self-awareness", description: "Identity, intuition, values, boundaries, and the changing stories we tell about ourselves.", prompt: "What have you been noticing beneath the noise?", color: "clay", memberCount: 326, activeNow: 18, joined: true },
-  { slug: "relationships", name: "Relationships", label: "Connection", description: "Friendship, family, partnership, repair, and belonging without losing your edges.", prompt: "Where could curiosity replace mind-reading?", color: "rose", memberCount: 284, activeNow: 12, joined: true },
-  { slug: "creativity", name: "Creativity", label: "The studio", description: "Writing, art, music, making, and protecting work before it needs to be useful.", prompt: "What are you making before it has a job?", color: "ochre", memberCount: 241, activeNow: 9, joined: true },
-  { slug: "anime-and-character-study", name: "Anime & Character Study", label: "Media club", description: "Character arcs, visual symbolism, comfort stories, craft, and the conversations that begin after the credits.", prompt: "Which character choice are you still thinking about?", color: "sky", memberCount: 186, activeNow: 16, joined: true },
-  { slug: "work-and-purpose", name: "Work & Purpose", label: "Vocation", description: "Ethical ambition, contribution, leadership, and work that leaves room for a life.", prompt: "What can this season honestly sustain?", color: "moss", memberCount: 219, activeNow: 7, joined: false },
-  { slug: "growth", name: "Growth", label: "Practice", description: "Change paced by curiosity rather than self-punishment, with practical experiments and reflection.", prompt: "What is becoming easier to practice?", color: "sea", memberCount: 198, activeNow: 5, joined: false },
-  { slug: "books-and-ideas", name: "Books & Ideas", label: "The reading room", description: "Philosophy, psychology, literature, systems, and the pleasure of a difficult question.", prompt: "What idea are you carrying around?", color: "indigo", memberCount: 303, activeNow: 14, joined: true },
-  { slug: "quiet-corner", name: "Quiet Corner", label: "Low tide", description: "Small observations, no-advice listening, gentle check-ins, and company without pressure.", prompt: "What would feel companionable today?", color: "mist", memberCount: 357, activeNow: 21, joined: true },
-  { slug: "ask-manywise", name: "Ask Manywise", label: "Open questions", description: "Specific questions for the community, answered from experience rather than type stereotypes.", prompt: "What deserves more than a quick answer?", color: "coral", memberCount: 412, activeNow: 24, joined: true },
+  { slug: "inner-worlds", name: "Inner//Worlds", label: "Private logs", description: "Unfiltered inner monologues, strange patterns, identity, instinct, and thoughts still waiting for language.", prompt: "What did you understand before you could explain it?", color: "clay", memberCount: 326, activeNow: 18, joined: true },
+  { slug: "relationships", name: "Social Codes", label: "Human systems", description: "Friendship, attraction, trust, distance, loyalty, and the signals people send without saying them.", prompt: "What changed when you finally read the signal correctly?", color: "rose", memberCount: 284, activeNow: 12, joined: true },
+  { slug: "creativity", name: "Creation Lab", label: "Build channel", description: "Art, edits, writing, music, experiments, and things made before the outside world understands them.", prompt: "What are you building that nobody asked for?", color: "ochre", memberCount: 241, activeNow: 9, joined: true },
+  { slug: "anime-and-character-study", name: "Anime Analysis", label: "After the credits", description: "Character motives, visual codes, moral choices, comfort stories, and scenes that keep changing after they end.", prompt: "Which character choice are you still decoding?", color: "sky", memberCount: 186, activeNow: 16, joined: true },
+  { slug: "work-and-purpose", name: "Mission Log", label: "Real-world quests", description: "Work, ambition, leadership, money, contribution, and deciding which missions are actually yours.", prompt: "Which mission would still matter without applause?", color: "moss", memberCount: 219, activeNow: 7, joined: false },
+  { slug: "growth", name: "Level Up", label: "Patch notes", description: "Experiments, changed minds, hard-earned upgrades, and becoming harder to fool—including by yourself.", prompt: "What belief did the latest version of you uninstall?", color: "sea", memberCount: 198, activeNow: 5, joined: false },
+  { slug: "books-and-ideas", name: "The Archive", label: "Deep files", description: "Books, philosophy, psychology, theories, rabbit holes, and ideas too strange for the group chat.", prompt: "Which idea keeps reopening in your head?", color: "indigo", memberCount: 303, activeNow: 14, joined: true },
+  { slug: "quiet-corner", name: "Ghost Mode", label: "Low signal", description: "Observe without performing. Small thoughts, late-night check-ins, silence, and company with no explanation required.", prompt: "What can be understood without fixing it?", color: "mist", memberCount: 357, activeNow: 21, joined: true },
+  { slug: "ask-manywise", name: "Open Intel", label: "Question dump", description: "Drop the question you cannot ask elsewhere. Get lived experience instead of recycled advice.", prompt: "What do you need the network to decode?", color: "coral", memberCount: 412, activeNow: 24, joined: true },
 ];
 
 export const initialDiscussions: Discussion[] = [
@@ -42,10 +42,10 @@ export const initialReplies: Reply[] = [
 ];
 
 export const chatRooms: ChatRoom[] = [
-  { id: "after-credits-chat", name: "After the credits", topic: "Character choices, visual motifs, and spoiler-labeled thoughts from the episode still in your head.", kind: "space", activeNow: 11, unread: 2 },
-  { id: "quiet-corner-chat", name: "Quiet Corner", topic: "Small observations and gentle company. Advice only when asked for.", kind: "space", activeNow: 8, unread: 3 },
-  { id: "books-chat", name: "Between the lines", topic: "What we are reading, abandoning, and thinking beside.", kind: "space", activeNow: 5, unread: 0 },
-  { id: "makers-table", name: "Makers’ table", topic: "A small circle for works in progress and kind, specific feedback.", kind: "circle", activeNow: 4, unread: 1 },
+  { id: "after-credits-chat", name: "# after-the-credits", topic: "Character motives, visual codes, and spoiler-marked thoughts still running after the episode ends.", kind: "space", activeNow: 11, unread: 2 },
+  { id: "quiet-corner-chat", name: "# ghost-mode", topic: "Low-signal company. Observe freely; advice only when explicitly requested.", kind: "space", activeNow: 8, unread: 3 },
+  { id: "books-chat", name: "# deep-archive", topic: "Books, theories, abandoned rabbit holes, and ideas still compiling.", kind: "space", activeNow: 5, unread: 0 },
+  { id: "makers-table", name: "# creation-lab", topic: "Works in progress, strange builds, and precise feedback when requested.", kind: "circle", activeNow: 4, unread: 1 },
 ];
 
 export const initialChatMessages: ChatMessage[] = [
@@ -76,7 +76,7 @@ export const defaultState: DemoState = {
     bio: "Learning to make room for both conviction and revision.",
     pronouns: "",
     timezone: "UTC",
-    interests: ["Inner life", "Books & ideas", "Anime & character study", "Creative practice"],
+    interests: ["Inner//Worlds", "The archive", "Anime analysis", "Creation lab"],
     goals: ["Thoughtful conversation", "Friendship"],
     conversationPace: "balanced",
     profileVisibility: "members",

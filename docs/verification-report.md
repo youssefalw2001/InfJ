@@ -121,3 +121,34 @@ The later anime-club direction received a fresh production-browser pass on 27 Oc
 - Type checking, zero-warning lint, production build, and `git diff --check` passed after browser fixes.
 
 The new visual artifacts are `manywise-club-finder-1440.png` and `manywise-anime-room-390.png` in `docs/screenshots`.
+
+## Room Zero redesign verification
+
+The final dark-forum redesign received a clean production-browser pass on 27 October 2026:
+
+- **99/99 browser checks passed** at 390×844, 768×900, and 1440×1000.
+- All 44 discovered links returned a response below HTTP 400.
+- Final telemetry contained 0 console errors, 0 page errors, 0 failed network requests, and 0 HTTP 4xx/5xx responses.
+- Thirteen route/viewport overflow audits passed. A 13px mobile document overflow found during the pass was fixed and rechecked.
+- A contrast scan covered 400 rendered text targets with 0 detected failures. Dark unread-count and avatar combinations were corrected before the final scan.
+- Signal Calibration passed all three questions, Previous, result routing, restart, and an exact before/after comparison confirming that the result does not mutate the member profile.
+- The guest access gate now exposes the skip-link destination at `#main-content`.
+- Report flows now restore keyboard focus to stable trigger IDs from discussion cards, discussion details, member profiles, and Live Nodes after the dialog closes.
+- `pnpm typecheck`, zero-warning `pnpm lint`, `pnpm build` with 25/25 pages, and `git diff --check` all passed after the browser fixes.
+
+### Visual assessment
+
+The landing page and application shell now read as one Room Zero system: a near-black technical grid, raw borders, dense forum rows, monospaced status copy, restrained lime/cyan/amber signals, a server dock, pinned channels, and pseudonymous node identity. The hierarchy remains understandable at all tested widths, and the cryptic atmosphere does not conceal moderation, privacy, demo-state, age, or accessibility information. The Discord/hacking-forum references remain art direction only; the product contains no offensive-security, credential, malware, evasion, or unauthorized-access functionality.
+
+Insider belonging comes from shared subtext, channel lore, recurring fictional nodes, and the original anime-inspired cast. The interface does not claim that members are more intelligent, more valuable, or more human than outsiders. The visible 1–2% language remains sample-dependent and explicitly rejects intelligence, rank, proof, and diagnostic interpretations.
+
+### Final screenshot dimensions
+
+- `manywise-landing-1440.png` — 1440×7156
+- `manywise-landing-390.png` — 390×9461
+- `manywise-community-home-1440.png` — 1440×3213
+- `manywise-community-home-390.png` — 390×3433
+- `manywise-room-768.png` — 768×1693
+- `manywise-chat-768.png` — 768×1032
+- `manywise-club-finder-1440.png` — 1440×1000
+- `manywise-anime-room-390.png` — 390×1931

@@ -38,10 +38,10 @@ export function DiscussionCard({ discussion, compact = false }: { discussion: Di
         <Link href={`/spaces/${space?.slug}`} className="space-link"><i className={`dot dot-${space?.color ?? "moss"}`} />{space?.name ?? "Manywise"}</Link>
         <span className="meta-time">{discussion.createdAt}</span>
         <DropdownMenu.Root>
-          <DropdownMenu.Trigger asChild><IconButton label="Discussion options" className="card-menu"><MoreHorizontal size={19} /></IconButton></DropdownMenu.Trigger>
+          <DropdownMenu.Trigger asChild><IconButton id={`report-menu-${discussion.id}`} label="Discussion options" className="card-menu"><MoreHorizontal size={19} /></IconButton></DropdownMenu.Trigger>
           <DropdownMenu.Portal><DropdownMenu.Content className="dropdown" align="end" sideOffset={6}>
             <DropdownMenu.Item className="menu-item" onSelect={() => toggleDiscussionFollow(discussion.id)}>{discussion.followed ? <BellOff size={16} /> : <Bell size={16} />}{discussion.followed ? "Stop notifications" : "Keep up with this"}</DropdownMenu.Item>
-            <DropdownMenu.Item asChild><ReportDialog targetId={discussion.id} /></DropdownMenu.Item>
+            <DropdownMenu.Item asChild><ReportDialog targetId={discussion.id} returnFocusId={`report-menu-${discussion.id}`} /></DropdownMenu.Item>
           </DropdownMenu.Content></DropdownMenu.Portal>
         </DropdownMenu.Root>
       </header>

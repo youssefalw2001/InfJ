@@ -1,15 +1,19 @@
 import { ImageResponse } from "next/og";
 
-export const alt = "Manywise — many perspectives, held with care";
+export const alt = "Manywise Room Zero — the forum behind the obvious conversation";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
 export default function Image() {
   return new ImageResponse(
-    <div style={{ width: "100%", height: "100%", display: "flex", background: "#f4efe5", color: "#18332e", padding: 72, position: "relative", fontFamily: "serif" }}>
-      <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", width: "70%" }}><div style={{ display: "flex", alignItems: "center", gap: 18, fontFamily: "sans-serif", fontSize: 28, fontWeight: 700 }}><div style={{ display: "flex", width: 38, height: 38, background: "#173f37" }} />Manywise</div><div style={{ display: "flex", flexDirection: "column" }}><div style={{ fontFamily: "sans-serif", textTransform: "uppercase", letterSpacing: 4, color: "#9b4e37", fontSize: 18 }}>THE 1–2% CLUB* · RARE ≠ RANKED</div><div style={{ display: "flex", fontSize: 57, lineHeight: 1.04, letterSpacing: -3, marginTop: 18, whiteSpace: "pre-line" }}>{"Meet us after class.\nBring your whole inner world."}</div></div><div style={{ fontFamily: "sans-serif", fontSize: 21, color: "#51635f" }}>Rare does not mean ranked. Adults 18+.</div></div>
-      <div style={{ width: "30%", display: "flex", flexWrap: "wrap", alignContent: "center", justifyContent: "center", gap: 12 }}><div style={{ width: 110, height: 110, background: "#ea9a72" }} /><div style={{ width: 110, height: 110, border: "3px solid #173f37" }} /><div style={{ width: 110, height: 110, border: "3px solid #173f37" }} /><div style={{ width: 110, height: 110, background: "#789078" }} /></div>
-      <div style={{ position: "absolute", left: 0, bottom: 0, width: "100%", height: 9, background: "#173f37" }} />
+    <div style={{ width: "100%", height: "100%", display: "flex", background: "#030907", color: "#e9f3ed", padding: 66, position: "relative", fontFamily: "sans-serif", border: "2px solid #2b4238" }}>
+      <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", width: "76%" }}>
+        <div style={{ display: "flex", alignItems: "center", gap: 15, fontFamily: "monospace", fontSize: 24, fontWeight: 800 }}><div style={{ display: "flex", width: 32, height: 32, background: "#c6ff4a" }} />MANYWISE // ROOM ZERO</div>
+        <div style={{ display: "flex", flexDirection: "column" }}><div style={{ color: "#55d8e3", fontFamily: "monospace", fontSize: 17, letterSpacing: 3 }}>PRIVATE SIGNAL NETWORK // GATE 01</div><div style={{ display: "flex", marginTop: 18, color: "#e9f3ed", fontSize: 65, fontWeight: 800, lineHeight: .95, letterSpacing: -4, whiteSpace: "pre-line" }}>{"NOT EVERYONE READS\nTHE LAYER UNDERNEATH."}</div></div>
+        <div style={{ color: "#c6ff4a", fontFamily: "monospace", fontSize: 18 }}>IF YOU CAUGHT THE SIGNAL, YOU’RE ALREADY CLOSE.</div>
+      </div>
+      <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", width: "24%", gap: 11 }}><div style={{ display: "flex", justifyContent: "center", alignItems: "center", width: 140, height: 140, color: "#030907", background: "#c6ff4a", borderRadius: 70, fontFamily: "monospace", fontSize: 34, fontWeight: 900 }}>01—02%</div><div style={{ color: "#8ca097", fontFamily: "monospace", fontSize: 12 }}>RARE ≠ RANKED</div></div>
+      <div style={{ position: "absolute", left: 0, bottom: 0, display: "flex", width: "100%", height: 8, background: "#c6ff4a" }} />
     </div>, size,
   );
 }

@@ -1,26 +1,27 @@
-# Manywise
+# Manywise // Room Zero
 
-**Come as nuanced as you are.**
+**If you caught the signal, you’re already close.**
 
-Manywise is a production-oriented community product for adults who identify with INFJ and use personality type as a framework for self-reflection—not a diagnosis, compatibility score, or rigid identity. It combines durable discussions, topic rooms, privacy-respecting profiles, finite discovery, realtime chat architecture, and visible safety controls in a distinctive editorial interface.
+Manywise // Room Zero is a production-oriented, private-feeling forum and channel network for adults who identify with INFJ and use personality type as a framework for self-reflection—not a diagnosis, compatibility score, or rigid identity. It combines dense forum threads, pseudonymous nodes, live channels, finite discovery, anime analysis, and visible safety controls in an original dark technical interface.
 
 Manywise is independent and is not affiliated with, endorsed by, or sponsored by The Myers-Briggs Company, the Myers & Briggs Foundation, or any owner of personality-typing trademarks.
 
 ## What is implemented
 
-- Original after-class anime-club art direction with a hand-built fictional cast, notebook/poster details, qualified 1–2% identity messaging, and no borrowed franchise assets
-- Optional three-question Clubroom Finder that recommends a room without testing or verifying personality type
-- Branded public homepage, responsive at mobile, tablet, and desktop widths
+- Original Room Zero technical-forum art direction with a near-black grid, raw borders, monospaced status language, restrained lime/cyan/amber signals, and a Discord-like server/channel dock without copying Discord’s palette or shell
+- Hand-built fictional anime-inspired cast, qualified 1–2% rarity messaging, and no borrowed characters, worlds, or franchise assets
+- Optional three-question Signal Calibration route finder that recommends a channel without testing or verifying personality type
+- Branded public access gate, responsive at mobile, tablet, and desktop widths
 - Email/password Supabase Auth boundary plus a complete no-credential browser demo
 - Three-step onboarding: identity, avatar, interests, goals, pace, privacy, contact, and Community Guide consent
-- Finite home feed with room filters, following/recent views, keeps, thread follows, reactions, and honest empty states
+- Finite Forum feed with channel filters, following/recent views, keeps, thread follows, reactions, and honest empty states
 - Rich discussion composer with local drafts, image/link attachments, tags, preview, validation, and persisted demo publication
-- Nine conversation rooms, including Anime & Character Study, with room membership, search/sort, prompts, and room-level live entry
-- Thread detail pages with nested reply context, reactions, reporting, sharing, and member controls
-- Live-room chat with optimistic local messages, replies, reactions, approximate presence language, typing architecture, mute/leave/report/block controls, offline status, and `BroadcastChannel` cross-tab demo synchronization
-- Search across threads, rooms, and members; filters; keyboard shortcut; URL query support; declared-interest discovery
-- Privacy-respecting profiles, follows (“keep up”), conversation requests, contributions, visible rooms, and private block/report flows
-- Notifications with read/unread state and non-manipulative copy
+- Nine conversation channels, including Anime Analysis, with membership, search/sort, prompts, and channel-level live entry
+- Thread detail pages with nested reply context, reactions, reporting, sharing, and node controls
+- Live Nodes chat with optimistic local messages, replies, reactions, approximate presence language, typing architecture, mute/leave/report/block controls, offline status, and `BroadcastChannel` cross-tab demo synchronization
+- Search across threads, channels, and nodes; filters; keyboard shortcut; URL query support; declared-interest discovery
+- Privacy-respecting node profiles, follows (“keep up”), conversation requests, contributions, visible channels, and private block/report flows
+- Inbox notices with read/unread state and non-manipulative copy
 - Profile, privacy, notifications, theme, export, reset, unblock, sign-out, and local account deletion settings
 - Server-gated moderation route with role checks and an auditable, functional steward console
 - Full Supabase schema, migration, RLS policies, private authorization helpers, search indexes, Storage policies, realtime publication setup, rate-limit telemetry boundaries, and guarded fictional seed data
@@ -34,10 +35,10 @@ All fictional activity is explicitly development/demo content. The product makes
 
 <p align="center">
   <img src="docs/screenshots/manywise-community-home-390.png" alt="Manywise mobile community home" width="280" />
-  <img src="docs/screenshots/manywise-anime-room-390.png" alt="Manywise mobile Anime and Character Study room" width="280" />
+  <img src="docs/screenshots/manywise-anime-room-390.png" alt="Manywise mobile Anime Analysis channel" width="280" />
 </p>
 
-![Manywise Clubroom Finder](docs/screenshots/manywise-club-finder-1440.png)
+![Manywise Signal Calibration](docs/screenshots/manywise-club-finder-1440.png)
 
 ## Quick start
 
@@ -49,7 +50,7 @@ pnpm install
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000). Without environment variables, choose **Explore the demo** or **Join thoughtfully → Create demo profile**. Demo changes persist only in the current browser and can be exported, reset, or deleted in **Settings → Your data**.
+Open [http://localhost:3000](http://localhost:3000). Without environment variables, select **REQUEST ACCESS**, then **Create local node**. Returning visitors can use **SIGN IN → Enter as Avery // demo**. Demo changes persist only in the current browser and can be exported, reset, or deleted in **Settings → Your data**.
 
 Production-style local run:
 
