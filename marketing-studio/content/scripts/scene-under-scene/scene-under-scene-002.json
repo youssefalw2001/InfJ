@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "scene-under-scene-002",
+  "template": "scene-under-scene",
+  "campaignId": "room-zero-launch",
+  "variantId": "a",
+  "title": "Understanding the antagonist",
+  "fps": 30,
+  "durationFrames": 450,
+  "locale": "en",
+  "eyebrow": "THE SCENE UNDER THE SCENE // 002",
+  "hook": "You did not excuse the antagonist. You recognized the motive.",
+  "supporting": ["DIALOGUE // They chose destruction.", "SUBTEXT // The wound explains the path, not the damage."],
+  "question": "Which character created that conflict for you?",
+  "choices": [],
+  "cta": { "label": "OPEN THE DISCUSSION", "destination": "/spaces/anime-and-character-study" },
+  "accent": "amber",
+  "captions": [
+    { "from": 15, "to": 145, "text": "You did not excuse the antagonist. You recognized the motive." },
+    { "from": 145, "to": 320, "text": "The wound can explain the path without excusing the damage." },
+    { "from": 320, "to": 445, "text": "Which character created that conflict for you?" }
+  ],
+  "legal": ["MANYWISE // ROOM ZERO // ADULTS 18+ // DRAFT"],
+  "assets": [{ "src": "after-class-cast.svg", "alt": "Four original adult Manywise characters discussing a story together", "provenance": "original" }],
+  "publishTargets": ["tiktok", "instagram-reels", "youtube-shorts", "x"],
+  "analyticsTags": ["scene-analysis", "moral-complexity"],
+  "status": "draft"
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "social-code-001",
+  "template": "social-code",
+  "campaignId": "room-zero-launch",
+  "variantId": "a",
+  "title": "Understanding is not approval",
+  "fps": 30,
+  "durationFrames": 450,
+  "locale": "en",
+  "eyebrow": "SOCIAL CODE // 001",
+  "hook": "Understanding the motive does not require approving the decision.",
+  "supporting": ["You can read the pattern.", "You can still protect the boundary."],
+  "question": "Which character taught you that?",
+  "choices": [],
+  "cta": { "label": "OPEN SOCIAL CODES", "destination": "/spaces/relationships" },
+  "accent": "amber",
+  "captions": [
+    { "from": 15, "to": 170, "text": "Understanding the motive does not require approving the decision." },
+    { "from": 170, "to": 320, "text": "You can read the pattern and still protect the boundary." },
+    { "from": 320, "to": 445, "text": "Which character taught you that?" }
+  ],
+  "legal": ["MANYWISE // ROOM ZERO // ADULTS 18+ // DRAFT"],
+  "assets": [],
+  "publishTargets": ["tiktok", "instagram-reels", "youtube-shorts", "x"],
+  "analyticsTags": ["social-code", "boundaries"],
+  "status": "draft"
+}

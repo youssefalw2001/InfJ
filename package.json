@@ -8,7 +8,16 @@
     "start": "next start",
     "lint": "eslint --max-warnings=0",
     "typecheck": "tsc --noEmit",
-    "verify": "pnpm typecheck && pnpm lint && pnpm build"
+    "studio": "pnpm --dir marketing-studio studio",
+    "studio:validate": "pnpm --dir marketing-studio validate",
+    "studio:calendar": "pnpm --dir marketing-studio calendar",
+    "studio:captions": "pnpm --dir marketing-studio captions",
+    "studio:render": "pnpm --dir marketing-studio render",
+    "studio:render:all": "pnpm --dir marketing-studio render:all",
+    "studio:render:manifest": "pnpm --dir marketing-studio render:manifest",
+    "studio:render:samples": "pnpm --dir marketing-studio render:samples",
+    "studio:verify": "pnpm --dir marketing-studio verify",
+    "verify": "pnpm typecheck && pnpm lint && pnpm studio:verify && pnpm build"
   },
   "dependencies": {
     "@radix-ui/react-avatar": "^1.3.1",

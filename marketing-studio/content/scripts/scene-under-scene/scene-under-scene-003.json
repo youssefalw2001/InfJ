@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "scene-under-scene-003",
+  "template": "scene-under-scene",
+  "campaignId": "room-zero-launch",
+  "variantId": "a",
+  "title": "When silence changes the scene",
+  "fps": 30,
+  "durationFrames": 450,
+  "locale": "en",
+  "eyebrow": "THE SCENE UNDER THE SCENE // 003",
+  "hook": "The silence felt louder because the character usually answers first.",
+  "supporting": ["DIALOGUE // No answer.", "SUBTEXT // The relationship has changed shape."],
+  "question": "Which silence changed a story for you?",
+  "choices": [],
+  "cta": { "label": "TRACE THE SUBTEXT", "destination": "/spaces/anime-and-character-study" },
+  "accent": "cyan",
+  "captions": [
+    { "from": 15, "to": 150, "text": "The silence felt louder because the character usually answers first." },
+    { "from": 150, "to": 320, "text": "No dialogue. One changed habit. The relationship has a new shape." },
+    { "from": 320, "to": 445, "text": "Which silence changed a story for you?" }
+  ],
+  "legal": ["MANYWISE // ROOM ZERO // ADULTS 18+ // DRAFT"],
+  "assets": [{ "src": "after-class-cast.svg", "alt": "Original adult Manywise characters pausing during a late-session conversation", "provenance": "original" }],
+  "publishTargets": ["tiktok", "instagram-reels", "youtube-shorts", "x"],
+  "analyticsTags": ["scene-analysis", "visual-language"],
+  "status": "draft"
+}

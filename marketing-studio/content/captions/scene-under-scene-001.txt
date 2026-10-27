@@ -1,0 +1,10 @@
+TITLE: The line they avoided
+HOOK: The most important line was the one they avoided saying.
+SUPPORT: DIALOGUE // Nothing changed.
+SUPPORT: SUBTEXT // The decision had already been made.
+QUESTION: What did you notice first?
+CALL TO ACTION: ENTER ANIME ANALYSIS
+DESTINATION: /spaces/anime-and-character-study
+NOTICE: ORIGINAL ADULT CAST // NO BORROWED WORLDS
+AUDIENCE: ADULTS 18+
+STATUS: DRAFT — HUMAN APPROVAL REQUIRED BEFORE PUBLISHING

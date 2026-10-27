@@ -1,6 +1,8 @@
 # Manywise — Research and Brand Strategy
 
-**Tagline:** “Come as nuanced as you are.”  
+**Brand:** Manywise // Room Zero
+**Tagline:** “If you caught the signal, you’re already close.”
+**Founding line:** “Come as nuanced as you are.”
 **Strategy date:** 27 October 2026  
 **Status:** Greenfield product direction; production-oriented, subject to validation
 
@@ -50,7 +52,7 @@ No reviewed pattern alone provides **paced belonging + nuanced self-description 
 ## 4. Product principles
 
 1. **Lens, never label.** Never infer ability, morality, mental health, compatibility, or destiny from a type. Do not require an official assessment or police whether someone is “really” INFJ.
-2. **Specificity over stereotype.** Prompt for “what is true for you?” rather than “what INFJs always do.” Avoid rarity claims, superlatives, and “special few” framing.
+2. **Specificity over stereotype.** Prompt for “what is true for you?” rather than “what INFJs always do.” Qualify prevalence as a sample-dependent 1–2% estimate, pair it with “rare does not mean ranked,” and never turn rarity into intelligence, moral status, or authenticity.
 3. **Depth without forced disclosure.** Rich prompts are optional. Preview audience and persistence before posting. Sensitive profile fields default to private or unset.
 4. **Paced by design.** Threads, bookmarks, digests, room summaries, quiet hours, and explicit stopping points outrank infinite scroll, streaks, or urgency cues.
 5. **Reciprocity over reach.** Optimize for constructive replies, return conversations, and diverse participation—not impressions, public follower counts, or leaderboards.
@@ -75,7 +77,7 @@ No reviewed pattern alone provides **paced belonging + nuanced self-description 
 
 - Launch as an **18+ community**; revisit age scope only after dedicated youth-safety design, policy, staffing, and legal review.
 - Allow **pseudonyms** and do not expose legal names. Require one accountable account per person through proportionate anti-abuse controls, not public identity verification.
-- Use an **invite-wave pilot**, not permanent exclusivity. Publish admission criteria and avoid status signaling around invite access.
+- Use an **invite-wave pilot**, not permanent exclusivity. Publish admission criteria and avoid status signaling around invite access. The “1–2% club” names recognition, not a velvet rope.
 - Show no public follower totals, global engagement scores, “top member” ranks, streaks, read receipts, or typing indicators by default.
 - Use chronological/contextual ordering inside rooms. Editorial recommendations must be labeled; members can return to chronological order.
 - Do not target ads from personality, emotional disclosures, private messages, or inferred mental-health attributes. Do not sell member data.
@@ -221,3 +223,23 @@ All sources were accessed **27 October 2026**. Product pages describe public pat
 | [OWASP, API4:2023 Unrestricted Resource Consumption](https://owasp.org/API-Security/editions/2023/en/0xa4-unrestricted-resource-consumption/) | 2023 edition | Rate, payload, operation, and spend limits |
 | [PostgreSQL, text-search indexes](https://www.postgresql.org/docs/current/textsearch-indexes.html) | Current documentation | GIN/GiST search-index direction |
 | [Next.js, Metadata and OG images](https://nextjs.org/docs/app/getting-started/metadata-and-og-images) | Updated 25 Aug 2026 | Route metadata and privacy-safe share assets |
+
+## 15. After-class club evolution
+
+A later product direction adds original anime-inspired character art, notebook/club-poster details, and a dedicated **Anime & Character Study** room. This keeps the product’s editorial craft while adding the warmth and immediacy of finding a favorite after-school club. The visual reference is an emotional storytelling grammar—bold outlines, panel framing, expressive color, ensemble casts—not copied characters, franchise marks, or proprietary worlds.
+
+The rarity message is deliberately qualified. The Myers-Briggs Company currently describes people who prefer INFJ as **under 2%** of the general population in one of its global leadership articles, while reported figures vary across samples, countries, instruments, and dates ([source](https://www.themyersbriggs.com/en-us/access-resources/articles/leadership-and-the-intuitionfeeling-nf-process-pair)). Manywise therefore uses **“the 1–2% club*”** as a sourced cultural shorthand with the visible line **“rare does not mean ranked”** and a nearby methodology caveat. It must never imply greater intelligence, moral status, authenticity, or a scientifically fixed universal prevalence.
+
+The optional Clubroom Finder is not a typing assessment. Three situational questions use only the member’s explicit answers to recommend a starting room. Results stay in the browser, are not added to the profile, and can be retaken. This is more useful and safer than a mini “are you really INFJ?” gate because it reduces choice overload without policing identity.
+
+Content was rephrased for compliance with licensing restrictions.
+
+## 16. Room Zero forum direction
+
+The visual system later moved away from a gentle lifestyle/editorial mood toward **Manywise // Room Zero**, a private-feeling forum for younger adults. The reference set is channel-based community architecture, technical mono interfaces, retro forum indexes, raw borders, pseudonymous identity, and the feeling of discovering a signal rather than entering a wellness product. Discord’s onboarding guidance favors a small set of healthy, useful default channels instead of exposing every possible channel at once ([Discord Community Onboarding](https://support.discord.com/hc/en-us/articles/11074987197975)). Current interface commentary also notes renewed use of raw borders, technical typography, and retro/brutalist detail as an alternative to polished template sameness ([Setproduct overview](https://www.setproduct.com/blog/retro-brutalist-ui-design-2026)).
+
+The direction uses a narrow lime/cyan/amber signal palette, dark grid and scanline textures, a functional channel dock, dense thread tables, coded status labels, and direct copy. “Hacking forum” is treated strictly as an art-direction reference; Manywise does not support unauthorized access, malware, stolen data, evasion, or cybercrime. Insider language creates recognition through shared references and lore, not claims that outsiders are lesser or that members possess superior intelligence.
+
+The information architecture now presents familiar functions through forum terminology: Home becomes **Forum**, Rooms become **Channels**, chat becomes **Live Nodes**, notifications become **Inbox**, member profiles become **Nodes**, and the optional room finder becomes **Signal Calibration**. Under the visual layer, controls remain plainly labeled for assistive technology and moderation/privacy boundaries remain explicit.
+
+Content was rephrased for compliance with licensing restrictions.

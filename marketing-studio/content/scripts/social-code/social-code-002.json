@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "social-code-002",
+  "template": "social-code",
+  "campaignId": "room-zero-launch",
+  "variantId": "a",
+  "title": "The tone changed",
+  "fps": 30,
+  "durationFrames": 450,
+  "locale": "en",
+  "eyebrow": "SOCIAL CODE // 002",
+  "hook": "The late reply was not the problem. The changed tone was.",
+  "supporting": ["Timing created the question.", "Language confirmed the distance."],
+  "question": "What tiny change tells you the dynamic moved?",
+  "choices": [],
+  "cta": { "label": "DECODE SOCIAL CODES", "destination": "/spaces/relationships" },
+  "accent": "cyan",
+  "captions": [
+    { "from": 15, "to": 165, "text": "The late reply was not the problem. The changed tone was." },
+    { "from": 165, "to": 320, "text": "Timing created the question. Language confirmed the distance." },
+    { "from": 320, "to": 445, "text": "What tiny change tells you the dynamic moved?" }
+  ],
+  "legal": ["MANYWISE // ROOM ZERO // ADULTS 18+ // DRAFT"],
+  "assets": [],
+  "publishTargets": ["tiktok", "instagram-reels", "youtube-shorts", "x"],
+  "analyticsTags": ["social-code", "communication"],
+  "status": "draft"
+}

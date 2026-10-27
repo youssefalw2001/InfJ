@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "scene-under-scene-001",
+  "template": "scene-under-scene",
+  "campaignId": "room-zero-launch",
+  "variantId": "a",
+  "title": "The line they avoided",
+  "fps": 30,
+  "durationFrames": 450,
+  "locale": "en",
+  "eyebrow": "THE SCENE UNDER THE SCENE // 001",
+  "hook": "The most important line was the one they avoided saying.",
+  "supporting": ["DIALOGUE // Nothing changed.", "SUBTEXT // The decision had already been made."],
+  "question": "What did you notice first?",
+  "choices": [],
+  "cta": { "label": "ENTER ANIME ANALYSIS", "destination": "/spaces/anime-and-character-study" },
+  "accent": "cyan",
+  "captions": [
+    { "from": 15, "to": 145, "text": "The most important line was the one they avoided saying." },
+    { "from": 145, "to": 320, "text": "The dialogue said nothing changed. The timing said the decision was already made." },
+    { "from": 320, "to": 445, "text": "What did you notice first?" }
+  ],
+  "legal": ["MANYWISE // ROOM ZERO // ADULTS 18+ // DRAFT"],
+  "assets": [{ "src": "after-class-cast.svg", "alt": "Four original adult Manywise characters sharing a late Room Zero conversation", "provenance": "original" }],
+  "publishTargets": ["tiktok", "instagram-reels", "youtube-shorts", "x"],
+  "analyticsTags": ["scene-analysis", "anime-analysis"],
+  "status": "draft"
+}

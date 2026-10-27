@@ -96,6 +96,8 @@ Screenshots are committed under [`docs/screenshots`](screenshots):
 - [`manywise-community-home-390.png`](screenshots/manywise-community-home-390.png)
 - [`manywise-room-768.png`](screenshots/manywise-room-768.png)
 - [`manywise-chat-768.png`](screenshots/manywise-chat-768.png)
+- [`manywise-club-finder-1440.png`](screenshots/manywise-club-finder-1440.png)
+- [`manywise-anime-room-390.png`](screenshots/manywise-anime-room-390.png)
 - [`manywise-landing-accessibility.md`](screenshots/manywise-landing-accessibility.md)
 - [`manywise-community-home-accessibility.md`](screenshots/manywise-community-home-accessibility.md)
 
@@ -104,3 +106,49 @@ The screenshots were recaptured in a clean pointer state. The keyboard skip link
 ## Remaining limitations
 
 See the README’s **Known limitations** section. Most importantly, browser QA covered the coherent local product implementation. Provisioned Supabase policy tests, real concurrent accounts, storage abuse cases, distributed rate limiting, email flows, production export/deletion, moderation operations, backup restoration, and incident procedures remain required before launch.
+
+## After-class club update verification
+
+The later anime-club direction received a fresh production-browser pass on 27 October 2026:
+
+- 43/43 focused checks passed at 390×844, 768×900, and 1440×1000.
+- The original four-character SVG cast loaded successfully and uses no borrowed franchise assets.
+- The visible prevalence caveat says 1–2% is sample-dependent and not evidence of intelligence, worth, ranking, or superiority.
+- The three-question Clubroom Finder passed keyboard, previous, restart, result-routing, and no-profile-mutation checks.
+- Anime & Character Study, its seeded thread, the After the credits live room, onboarding interest, and spoiler/credit Community Guide language were verified.
+- Final telemetry contained 0 console errors, 0 page errors, 0 failed requests, and 0 HTTP 4xx/5xx responses across 420 request lines.
+- Contrast scans found no definite WCAG failures across 113 landing text targets and 68 chat text targets.
+- Type checking, zero-warning lint, production build, and `git diff --check` passed after browser fixes.
+
+The new visual artifacts are `manywise-club-finder-1440.png` and `manywise-anime-room-390.png` in `docs/screenshots`.
+
+## Room Zero redesign verification
+
+The final dark-forum redesign received a clean production-browser pass on 27 October 2026:
+
+- **99/99 browser checks passed** at 390×844, 768×900, and 1440×1000.
+- All 44 discovered links returned a response below HTTP 400.
+- Final telemetry contained 0 console errors, 0 page errors, 0 failed network requests, and 0 HTTP 4xx/5xx responses.
+- Thirteen route/viewport overflow audits passed. A 13px mobile document overflow found during the pass was fixed and rechecked.
+- A contrast scan covered 400 rendered text targets with 0 detected failures. Dark unread-count and avatar combinations were corrected before the final scan.
+- Signal Calibration passed all three questions, Previous, result routing, restart, and an exact before/after comparison confirming that the result does not mutate the member profile.
+- The guest access gate now exposes the skip-link destination at `#main-content`.
+- Report flows now restore keyboard focus to stable trigger IDs from discussion cards, discussion details, member profiles, and Live Nodes after the dialog closes.
+- `pnpm typecheck`, zero-warning `pnpm lint`, `pnpm build` with 25/25 pages, and `git diff --check` all passed after the browser fixes.
+
+### Visual assessment
+
+The landing page and application shell now read as one Room Zero system: a near-black technical grid, raw borders, dense forum rows, monospaced status copy, restrained lime/cyan/amber signals, a server dock, pinned channels, and pseudonymous node identity. The hierarchy remains understandable at all tested widths, and the cryptic atmosphere does not conceal moderation, privacy, demo-state, age, or accessibility information. The Discord/hacking-forum references remain art direction only; the product contains no offensive-security, credential, malware, evasion, or unauthorized-access functionality.
+
+Insider belonging comes from shared subtext, channel lore, recurring fictional nodes, and the original anime-inspired cast. The interface does not claim that members are more intelligent, more valuable, or more human than outsiders. The visible 1–2% language remains sample-dependent and explicitly rejects intelligence, rank, proof, and diagnostic interpretations.
+
+### Final screenshot dimensions
+
+- `manywise-landing-1440.png` — 1440×7156
+- `manywise-landing-390.png` — 390×9461
+- `manywise-community-home-1440.png` — 1440×3213
+- `manywise-community-home-390.png` — 390×3433
+- `manywise-room-768.png` — 768×1693
+- `manywise-chat-768.png` — 768×1032
+- `manywise-club-finder-1440.png` — 1440×1000
+- `manywise-anime-room-390.png` — 390×1931

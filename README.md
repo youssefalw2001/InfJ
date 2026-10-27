@@ -1,24 +1,27 @@
-# Manywise
+# Manywise // Room Zero
 
-**Come as nuanced as you are.**
+**If you caught the signal, you’re already close.**
 
-Manywise is a production-oriented community product for adults who identify with INFJ and use personality type as a framework for self-reflection—not a diagnosis, compatibility score, or rigid identity. It combines durable discussions, topic rooms, privacy-respecting profiles, finite discovery, realtime chat architecture, and visible safety controls in a distinctive editorial interface.
+Manywise // Room Zero is a production-oriented, private-feeling forum and channel network for adults who identify with INFJ and use personality type as a framework for self-reflection—not a diagnosis, compatibility score, or rigid identity. It combines dense forum threads, pseudonymous nodes, live channels, finite discovery, anime analysis, and visible safety controls in an original dark technical interface.
 
 Manywise is independent and is not affiliated with, endorsed by, or sponsored by The Myers-Briggs Company, the Myers & Briggs Foundation, or any owner of personality-typing trademarks.
 
 ## What is implemented
 
-- Branded public homepage, responsive at mobile, tablet, and desktop widths
+- Original Room Zero technical-forum art direction with a near-black grid, raw borders, monospaced status language, restrained lime/cyan/amber signals, and a Discord-like server/channel dock without copying Discord’s palette or shell
+- Hand-built fictional anime-inspired cast, qualified 1–2% rarity messaging, and no borrowed characters, worlds, or franchise assets
+- Optional three-question Signal Calibration route finder that recommends a channel without testing or verifying personality type
+- Branded public access gate, responsive at mobile, tablet, and desktop widths
 - Email/password Supabase Auth boundary plus a complete no-credential browser demo
 - Three-step onboarding: identity, avatar, interests, goals, pace, privacy, contact, and Community Guide consent
-- Finite home feed with room filters, following/recent views, keeps, thread follows, reactions, and honest empty states
+- Finite Forum feed with channel filters, following/recent views, keeps, thread follows, reactions, and honest empty states
 - Rich discussion composer with local drafts, image/link attachments, tags, preview, validation, and persisted demo publication
-- Eight conversation rooms, room membership, room search/sort, prompts, and room-level live entry
-- Thread detail pages with nested reply context, reactions, reporting, sharing, and member controls
-- Live-room chat with optimistic local messages, replies, reactions, approximate presence language, typing architecture, mute/leave/report/block controls, offline status, and `BroadcastChannel` cross-tab demo synchronization
-- Search across threads, rooms, and members; filters; keyboard shortcut; URL query support; declared-interest discovery
-- Privacy-respecting profiles, follows (“keep up”), conversation requests, contributions, visible rooms, and private block/report flows
-- Notifications with read/unread state and non-manipulative copy
+- Nine conversation channels, including Anime Analysis, with membership, search/sort, prompts, and channel-level live entry
+- Thread detail pages with nested reply context, reactions, reporting, sharing, and node controls
+- Live Nodes chat with optimistic local messages, replies, reactions, approximate presence language, typing architecture, mute/leave/report/block controls, offline status, and `BroadcastChannel` cross-tab demo synchronization
+- Search across threads, channels, and nodes; filters; keyboard shortcut; URL query support; declared-interest discovery
+- Privacy-respecting node profiles, follows (“keep up”), conversation requests, contributions, visible channels, and private block/report flows
+- Inbox notices with read/unread state and non-manipulative copy
 - Profile, privacy, notifications, theme, export, reset, unblock, sign-out, and local account deletion settings
 - Server-gated moderation route with role checks and an auditable, functional steward console
 - Full Supabase schema, migration, RLS policies, private authorization helpers, search indexes, Storage policies, realtime publication setup, rate-limit telemetry boundaries, and guarded fictional seed data
@@ -31,9 +34,26 @@ All fictional activity is explicitly development/demo content. The product makes
 ![Manywise desktop landing page](docs/screenshots/manywise-landing-1440.png)
 
 <p align="center">
-  <img src="docs/screenshots/manywise-community-home-390.png" alt="Manywise mobile community home" width="320" />
-  <img src="docs/screenshots/manywise-chat-768.png" alt="Manywise tablet live room" width="430" />
+  <img src="docs/screenshots/manywise-community-home-390.png" alt="Manywise mobile community home" width="280" />
+  <img src="docs/screenshots/manywise-anime-room-390.png" alt="Manywise mobile Anime Analysis channel" width="280" />
 </p>
+
+![Manywise Signal Calibration](docs/screenshots/manywise-club-finder-1440.png)
+
+## Draft marketing studio
+
+The isolated [`marketing-studio`](marketing-studio) package creates 15-second, 1080×1920 Room Zero videos from validated JSON. It includes three Remotion templates, ten launch scripts, thirty additional concepts, platform-specific copy, a thirty-day draft calendar, SRT/VTT captions, privacy-safe aggregate analytics, and six repo-local marketing agents documented in [`marketing-studio/AGENTS.md`](marketing-studio/AGENTS.md).
+
+```bash
+pnpm studio:validate
+pnpm studio:captions
+pnpm studio:render signal-test-001
+pnpm studio:render:all
+pnpm studio:render:manifest
+pnpm studio:render:samples
+```
+
+Rendered MP4s and posters remain ignored local review artifacts. The system does not publish, schedule, upload, or access social accounts; every candidate requires trust review and exact human approval.
 
 ## Quick start
 
@@ -45,7 +65,7 @@ pnpm install
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000). Without environment variables, choose **Explore the demo** or **Join thoughtfully → Create demo profile**. Demo changes persist only in the current browser and can be exported, reset, or deleted in **Settings → Your data**.
+Open [http://localhost:3000](http://localhost:3000). Without environment variables, select **REQUEST ACCESS**, then **Create local node**. Returning visitors can use **SIGN IN → Enter as Avery // demo**. Demo changes persist only in the current browser and can be exported, reset, or deleted in **Settings → Your data**.
 
 Production-style local run:
 
@@ -130,7 +150,7 @@ Never expose a service-role credential through a `NEXT_PUBLIC_` variable. `.env*
 ## Supabase setup
 
 1. Create or link a Supabase project.
-2. Apply [`supabase/migrations/202610270001_initial_schema.sql`](supabase/migrations/202610270001_initial_schema.sql) through the Supabase CLI or SQL migration workflow.
+2. Apply every SQL file in [`supabase/migrations`](supabase/migrations) in filename order through the Supabase CLI or your migration workflow.
 3. Confirm `private` is **not** listed as a PostgREST-exposed schema.
 4. Confirm RLS remains enabled on every public application table and run allow/deny policy tests with member, steward, unrelated, blocked, and anonymous identities.
 5. Configure the site URL and callback URL (`/auth/callback`) in Supabase Auth.

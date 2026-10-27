@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "signal-test-001",
+  "template": "signal-test",
+  "campaignId": "room-zero-launch",
+  "variantId": "a",
+  "title": "Which channel opens at 02:13?",
+  "fps": 30,
+  "durationFrames": 450,
+  "locale": "en",
+  "eyebrow": "SIGNAL TEST // 001",
+  "hook": "It is 02:13. Which channel are you opening?",
+  "supporting": ["Choose the signal you would follow. There is no correct answer."],
+  "question": "Where does your attention go first?",
+  "choices": ["Character motives", "Unfinished art", "Strange theories", "Quiet company"],
+  "cta": { "label": "RUN SIGNAL CALIBRATION", "destination": "/#club-finder" },
+  "accent": "signal",
+  "captions": [
+    { "from": 15, "to": 120, "text": "It is 02:13. Which channel are you opening?" },
+    { "from": 120, "to": 325, "text": "Character motives, unfinished art, strange theories, or quiet company?" },
+    { "from": 325, "to": 445, "text": "Run Signal Calibration. There is no correct answer." }
+  ],
+  "legal": ["MANYWISE // ROOM ZERO // ADULTS 18+ // DRAFT"],
+  "assets": [],
+  "publishTargets": ["tiktok", "instagram-reels", "youtube-shorts", "x"],
+  "analyticsTags": ["signal-test", "channel-routing"],
+  "status": "draft"
+}

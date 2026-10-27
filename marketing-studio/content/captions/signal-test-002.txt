@@ -1,0 +1,10 @@
+TITLE: Which character earns your trust?
+HOOK: Which character earns your trust first?
+SUPPORT: Read the pattern, then choose your signal.
+QUESTION: What makes you believe them?
+CHOICES: They explain everything; Their habits quietly change; They admit uncertainty; They protect someone unseen
+CALL TO ACTION: ENTER ANIME ANALYSIS
+DESTINATION: /spaces/anime-and-character-study
+NOTICE: NO CORRECT ANSWER // NO TYPE TEST
+AUDIENCE: ADULTS 18+
+STATUS: DRAFT — HUMAN APPROVAL REQUIRED BEFORE PUBLISHING

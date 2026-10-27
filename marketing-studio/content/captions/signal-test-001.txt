@@ -1,0 +1,10 @@
+TITLE: Which channel opens at 02:13?
+HOOK: It is 02:13. Which channel are you opening?
+SUPPORT: Choose the signal you would follow. There is no correct answer.
+QUESTION: Where does your attention go first?
+CHOICES: Character motives; Unfinished art; Strange theories; Quiet company
+CALL TO ACTION: RUN SIGNAL CALIBRATION
+DESTINATION: /#club-finder
+NOTICE: NO CORRECT ANSWER // NO TYPE TEST
+AUDIENCE: ADULTS 18+
+STATUS: DRAFT — HUMAN APPROVAL REQUIRED BEFORE PUBLISHING

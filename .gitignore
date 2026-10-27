@@ -40,3 +40,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Room Zero marketing studio local artifacts
+/marketing-studio/renders/drafts/
+/marketing-studio/renders/posters/
+/marketing-studio/.remotion/
+/marketing-studio/.cache/
+/marketing-studio/node_modules/

@@ -623,4 +623,116 @@ begin
 end
 $$;
 
+-- Optional fictional after-class media club. This remains guarded by supported
+-- Auth identities and uses no copyrighted characters, titles, or assets.
+do $$
+declare
+  v_jonah uuid;
+  v_noor uuid;
+begin
+  select id into v_jonah from auth.users
+  where lower(email) = 'jonah.moss@example.invalid'
+  order by created_at limit 1;
+
+  select id into v_noor from auth.users
+  where lower(email) = 'noor.vale@example.invalid'
+  order by created_at limit 1;
+
+  if v_jonah is null or v_noor is null then
+    raise notice 'Manywise after-class media club skipped: create the documented fictional Auth users, then rerun the seed.';
+    return;
+  end if;
+
+  insert into public.spaces (
+    id, created_by, primary_interest_id, slug, name, summary, description,
+    visibility, join_policy, is_archived
+  ) values (
+    '20000000-0000-4000-8000-000000000005', v_jonah,
+    '10000000-0000-4000-8000-000000000009',
+    'anime-and-character-study', 'Anime & Character Study',
+    'An after-class media club for the conversations that begin when the credits roll.',
+    'Discuss character arcs, visual symbolism, music, comfort stories, and craft. Label spoilers, credit artists and sources, and leave franchise wars and armchair diagnosis outside.',
+    'members', 'open', false
+  ) on conflict (id) do update
+  set summary = excluded.summary,
+      description = excluded.description,
+      visibility = excluded.visibility,
+      join_policy = excluded.join_policy,
+      is_archived = excluded.is_archived;
+
+  insert into public.space_memberships (space_id, user_id, role, status, joined_by, joined_at)
+  values
+    ('20000000-0000-4000-8000-000000000005', v_jonah, 'owner', 'active', v_jonah, now() - interval '24 days'),
+    ('20000000-0000-4000-8000-000000000005', v_noor, 'member', 'active', v_jonah, now() - interval '20 days')
+  on conflict (space_id, user_id) do update
+  set role = excluded.role, status = excluded.status, joined_at = excluded.joined_at;
+
+  insert into public.discussions (
+    id, author_id, space_id, title, body, visibility,
+    publication_state, moderation_state, published_at, created_at
+  ) values (
+    '30000000-0000-4000-8000-000000000006', v_jonah,
+    '20000000-0000-4000-8000-000000000005',
+    'Which character choice taught you that kindness can have boundaries?',
+    E'I keep returning to stories where a gentle character finally says no—not as a transformation into someone colder, but as proof their care includes themselves. That choice often feels quieter and more difficult than a triumphant power-up.\n\nWhich fictional character choice opened that idea for you? Please label spoilers and focus on what the scene meant, not a definitive personality diagnosis.',
+    'members', 'published', 'visible', now() - interval '12 minutes', now() - interval '12 minutes'
+  ) on conflict (id) do update
+  set title = excluded.title, body = excluded.body, moderation_state = excluded.moderation_state;
+
+  insert into public.discussion_tags (discussion_id, tag_id)
+  values
+    ('30000000-0000-4000-8000-000000000006', '11000000-0000-4000-8000-000000000009'),
+    ('30000000-0000-4000-8000-000000000006', '11000000-0000-4000-8000-000000000010')
+  on conflict do nothing;
+
+  insert into public.replies (
+    id, discussion_id, author_id, parent_reply_id, body,
+    publication_state, moderation_state, created_at
+  ) values (
+    '40000000-0000-4000-8000-000000000008',
+    '30000000-0000-4000-8000-000000000006', v_noor, null,
+    'The scenes that stay with me are the ones where saying no protects a relationship from quiet resentment. It is less cinematic than sacrifice, but often more loving.',
+    'published', 'visible', now() - interval '7 minutes'
+  ) on conflict (id) do update set body = excluded.body;
+
+  insert into public.chat_rooms (
+    id, room_type, created_by, space_id, title, topic, direct_key, is_archived, created_at
+  ) values (
+    '50000000-0000-4000-8000-000000000003', 'space', v_jonah,
+    '20000000-0000-4000-8000-000000000005',
+    'After the credits', 'Character choices, visual motifs, and spoiler-labeled thoughts.', null,
+    false, now() - interval '22 days'
+  ) on conflict (id) do update
+  set title = excluded.title, topic = excluded.topic, is_archived = excluded.is_archived;
+
+  insert into public.chat_room_members (room_id, user_id, role, status, invited_by, joined_at)
+  values
+    ('50000000-0000-4000-8000-000000000003', v_jonah, 'owner', 'active', v_jonah, now() - interval '22 days'),
+    ('50000000-0000-4000-8000-000000000003', v_noor, 'member', 'active', v_jonah, now() - interval '20 days')
+  on conflict (room_id, user_id) do update
+  set role = excluded.role, status = excluded.status, joined_at = excluded.joined_at;
+
+  insert into public.chat_messages (
+    id, room_id, sender_id, reply_to_message_id, body,
+    publication_state, moderation_state, created_at
+  ) values
+    (
+      '60000000-0000-4000-8000-000000000008',
+      '50000000-0000-4000-8000-000000000003', v_jonah, null,
+      'Spoiler-light question: what character entrance tells you everything through framing before a word is spoken?',
+      'published', 'visible', now() - interval '40 minutes'
+    ),
+    (
+      '60000000-0000-4000-8000-000000000009',
+      '50000000-0000-4000-8000-000000000003', v_noor,
+      '60000000-0000-4000-8000-000000000008',
+      'The ones where the room goes quiet instead of the soundtrack getting louder. Negative space can be a character cue.',
+      'published', 'visible', now() - interval '34 minutes'
+    )
+  on conflict (id) do update set body = excluded.body;
+
+  raise notice 'Manywise fictional after-class media club seeded successfully.';
+end
+$$;
+
 commit;

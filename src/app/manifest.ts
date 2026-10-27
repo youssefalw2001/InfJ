@@ -4,11 +4,11 @@ export default function manifest(): MetadataRoute.Manifest {
   return {
     name: "Manywise",
     short_name: "Manywise",
-    description: "A thoughtful community for people who use INFJ as a lens, never a box.",
+    description: "Manywise Room Zero: a private-feeling forum for INFJ signal, anime analysis, live channels, and uncommon conversations.",
     start_url: "/home",
     display: "standalone",
-    background_color: "#f4efe5",
-    theme_color: "#173f37",
+    background_color: "#07100e",
+    theme_color: "#c6ff4a",
     icons: [{ src: "/icon.svg", sizes: "any", type: "image/svg+xml" }],
   };
 }

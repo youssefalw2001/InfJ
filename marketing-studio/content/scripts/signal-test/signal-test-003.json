@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "signal-test-003",
+  "template": "signal-test",
+  "campaignId": "room-zero-launch",
+  "variantId": "a",
+  "title": "What makes a forum worth returning to?",
+  "fps": 30,
+  "durationFrames": 450,
+  "locale": "en",
+  "eyebrow": "SIGNAL TEST // 003",
+  "hook": "What makes a hidden forum worth returning to?",
+  "supporting": ["Choose what you would want to find waiting."],
+  "question": "What keeps the signal alive?",
+  "choices": ["Someone gets the reference", "A question stays open", "Quiet company", "Creative momentum"],
+  "cta": { "label": "FIND YOUR FIRST CHANNEL", "destination": "/#club-finder" },
+  "accent": "signal",
+  "captions": [
+    { "from": 15, "to": 120, "text": "What makes a hidden forum worth returning to?" },
+    { "from": 120, "to": 330, "text": "A shared reference, an open question, quiet company, or creative momentum?" },
+    { "from": 330, "to": 445, "text": "Find your first Room Zero channel." }
+  ],
+  "legal": ["MANYWISE // ROOM ZERO // ADULTS 18+ // DRAFT"],
+  "assets": [],
+  "publishTargets": ["tiktok", "instagram-reels", "youtube-shorts", "x"],
+  "analyticsTags": ["signal-test", "community-value"],
+  "status": "draft"
+}

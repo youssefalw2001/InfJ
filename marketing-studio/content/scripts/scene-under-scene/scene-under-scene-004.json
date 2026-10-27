@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "scene-under-scene-004",
+  "template": "scene-under-scene",
+  "campaignId": "room-zero-launch",
+  "variantId": "a",
+  "title": "The meaning beneath I am fine",
+  "fps": 30,
+  "durationFrames": 450,
+  "locale": "en",
+  "eyebrow": "THE SCENE UNDER THE SCENE // 004",
+  "hook": "The words said: I am fine. The next action told the truth.",
+  "supporting": ["DIALOGUE // Do not worry about me.", "SUBTEXT // Please notice without making me ask."],
+  "question": "Which action revealed the real answer?",
+  "choices": [],
+  "cta": { "label": "READ THE SECOND STORY", "destination": "/spaces/anime-and-character-study" },
+  "accent": "signal",
+  "captions": [
+    { "from": 15, "to": 145, "text": "The words said: I am fine. The next action told the truth." },
+    { "from": 145, "to": 320, "text": "Do not worry about me can mean: please notice without making me ask." },
+    { "from": 320, "to": 445, "text": "Which action revealed the real answer?" }
+  ],
+  "legal": ["MANYWISE // ROOM ZERO // ADULTS 18+ // DRAFT"],
+  "assets": [{ "src": "after-class-cast.svg", "alt": "Original adult Manywise characters reading each other's reactions", "provenance": "original" }],
+  "publishTargets": ["tiktok", "instagram-reels", "youtube-shorts", "x"],
+  "analyticsTags": ["scene-analysis", "subtext"],
+  "status": "draft"
+}
