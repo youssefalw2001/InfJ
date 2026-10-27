@@ -1,0 +1,10 @@
+TITLE: The meaning beneath I am fine
+HOOK: The words said: I am fine. The next action told the truth.
+SUPPORT: DIALOGUE // Do not worry about me.
+SUPPORT: SUBTEXT // Please notice without making me ask.
+QUESTION: Which action revealed the real answer?
+CALL TO ACTION: READ THE SECOND STORY
+DESTINATION: /spaces/anime-and-character-study
+NOTICE: ORIGINAL ADULT CAST // NO BORROWED WORLDS
+AUDIENCE: ADULTS 18+
+STATUS: DRAFT — HUMAN APPROVAL REQUIRED BEFORE PUBLISHING

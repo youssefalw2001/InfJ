@@ -40,6 +40,21 @@ All fictional activity is explicitly development/demo content. The product makes
 
 ![Manywise Signal Calibration](docs/screenshots/manywise-club-finder-1440.png)
 
+## Draft marketing studio
+
+The isolated [`marketing-studio`](marketing-studio) package creates 15-second, 1080×1920 Room Zero videos from validated JSON. It includes three Remotion templates, ten launch scripts, thirty additional concepts, platform-specific copy, a thirty-day draft calendar, SRT/VTT captions, privacy-safe aggregate analytics, and six repo-local marketing agents documented in [`marketing-studio/AGENTS.md`](marketing-studio/AGENTS.md).
+
+```bash
+pnpm studio:validate
+pnpm studio:captions
+pnpm studio:render signal-test-001
+pnpm studio:render:all
+pnpm studio:render:manifest
+pnpm studio:render:samples
+```
+
+Rendered MP4s and posters remain ignored local review artifacts. The system does not publish, schedule, upload, or access social accounts; every candidate requires trust review and exact human approval.
+
 ## Quick start
 
 Requirements: Node.js 22+ and pnpm 12+.

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720" role="img" aria-labelledby="title desc">
-  <title id="title">The original Manywise after-class cast</title>
-  <desc id="desc">Four original illustrated students sharing a bright clubroom table after class.</desc>
+  <title id="title">The original Manywise Room Zero cast</title>
+  <desc id="desc">Four original illustrated adults sharing a late creative-session table.</desc>
   <defs>
     <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#183b34" stroke-opacity=".13"/></pattern>
     <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="8" dy="10" stdDeviation="0" flood-color="#183b34" flood-opacity=".23"/></filter>
@@ -8,8 +8,8 @@
   <rect width="960" height="720" fill="#f5e899"/>
   <rect width="960" height="720" fill="url(#grid)"/>
   <path d="M44 72h210M44 90h120M706 72h210M796 90h120" stroke="#183b34" stroke-width="4"/>
-  <text x="44" y="45" font-family="Arial,sans-serif" font-size="17" font-weight="800" letter-spacing="4" fill="#183b34">MANYWISE / CLUBROOM 01</text>
-  <text x="720" y="45" font-family="Arial,sans-serif" font-size="17" font-weight="800" letter-spacing="4" fill="#183b34">AFTER CLASS</text>
+  <text x="44" y="45" font-family="Arial,sans-serif" font-size="17" font-weight="800" letter-spacing="4" fill="#183b34">MANYWISE / ROOM ZERO 01</text>
+  <text x="720" y="45" font-family="Arial,sans-serif" font-size="17" font-weight="800" letter-spacing="4" fill="#183b34">LATE SESSION</text>
 
   <!-- window and late afternoon -->
   <rect x="70" y="125" width="820" height="385" rx="8" fill="#92cbd1" stroke="#183b34" stroke-width="6" filter="url(#shadow)"/>

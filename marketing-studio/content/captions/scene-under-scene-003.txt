@@ -1,0 +1,10 @@
+TITLE: When silence changes the scene
+HOOK: The silence felt louder because the character usually answers first.
+SUPPORT: DIALOGUE // No answer.
+SUPPORT: SUBTEXT // The relationship has changed shape.
+QUESTION: Which silence changed a story for you?
+CALL TO ACTION: TRACE THE SUBTEXT
+DESTINATION: /spaces/anime-and-character-study
+NOTICE: ORIGINAL ADULT CAST // NO BORROWED WORLDS
+AUDIENCE: ADULTS 18+
+STATUS: DRAFT — HUMAN APPROVAL REQUIRED BEFORE PUBLISHING

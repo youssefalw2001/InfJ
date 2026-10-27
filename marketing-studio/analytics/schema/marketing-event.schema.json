@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://manywise.invalid/schemas/aggregate-marketing-result.schema.json",
+  "title": "Manywise aggregate marketing result",
+  "description": "Sanitized aggregate measurements only. Individual events and identity joins are prohibited.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "status", "campaignId", "contentId", "variantId", "template", "platform", "placement", "window", "sampleSize", "metrics"],
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "status": {"enum": ["fictional-example", "sanitized-aggregate"]},
+    "campaignId": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "contentId": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "variantId": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "template": {"enum": ["signal-test", "scene-under-scene", "social-code"]},
+    "platform": {"enum": ["tiktok", "instagram-reels", "youtube-shorts", "x"]},
+    "placement": {"enum": ["organic-short-video", "organic-x-post", "paid-short-video"]},
+    "window": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["start", "end", "timezone"],
+      "properties": {
+        "start": {"type": "string", "format": "date-time"},
+        "end": {"type": "string", "format": "date-time"},
+        "timezone": {"const": "UTC"}
+      }
+    },
+    "sampleSize": {"type": "integer", "minimum": 20},
+    "metrics": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["impressions", "videoStarts", "threeSecondViews", "completions", "averageWatchSeconds", "linkClicks", "accessRequests"],
+      "properties": {
+        "impressions": {"type": "integer", "minimum": 0},
+        "videoStarts": {"type": "integer", "minimum": 0},
+        "threeSecondViews": {"type": "integer", "minimum": 0},
+        "quarterViews": {"type": "integer", "minimum": 0},
+        "halfViews": {"type": "integer", "minimum": 0},
+        "threeQuarterViews": {"type": "integer", "minimum": 0},
+        "completions": {"type": "integer", "minimum": 0},
+        "averageWatchSeconds": {"type": "number", "minimum": 0},
+        "linkClicks": {"type": "integer", "minimum": 0},
+        "accessRequests": {"type": "integer", "minimum": 0},
+        "spend": {"type": "number", "minimum": 0}
+      }
+    }
+  }
+}

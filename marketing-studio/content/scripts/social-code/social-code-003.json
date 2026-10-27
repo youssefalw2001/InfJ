@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "social-code-003",
+  "template": "social-code",
+  "campaignId": "room-zero-launch",
+  "variantId": "a",
+  "title": "Care without unlimited access",
+  "fps": 30,
+  "durationFrames": 450,
+  "locale": "en",
+  "eyebrow": "SOCIAL CODE // 003",
+  "hook": "You can care about someone without giving them unlimited access.",
+  "supporting": ["Care names the connection.", "A boundary names what can continue."],
+  "question": "Which boundary made a relationship more honest?",
+  "choices": [],
+  "cta": { "label": "ENTER SOCIAL CODES", "destination": "/spaces/relationships" },
+  "accent": "signal",
+  "captions": [
+    { "from": 15, "to": 170, "text": "You can care about someone without giving them unlimited access." },
+    { "from": 170, "to": 320, "text": "Care names the connection. A boundary names what can continue." },
+    { "from": 320, "to": 445, "text": "Which boundary made a relationship more honest?" }
+  ],
+  "legal": ["MANYWISE // ROOM ZERO // ADULTS 18+ // DRAFT"],
+  "assets": [],
+  "publishTargets": ["tiktok", "instagram-reels", "youtube-shorts", "x"],
+  "analyticsTags": ["social-code", "healthy-boundaries"],
+  "status": "draft"
+}

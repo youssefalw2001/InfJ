@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "signal-test-002",
+  "template": "signal-test",
+  "campaignId": "room-zero-launch",
+  "variantId": "a",
+  "title": "Which character earns your trust?",
+  "fps": 30,
+  "durationFrames": 450,
+  "locale": "en",
+  "eyebrow": "SIGNAL TEST // 002",
+  "hook": "Which character earns your trust first?",
+  "supporting": ["Read the pattern, then choose your signal."],
+  "question": "What makes you believe them?",
+  "choices": ["They explain everything", "Their habits quietly change", "They admit uncertainty", "They protect someone unseen"],
+  "cta": { "label": "ENTER ANIME ANALYSIS", "destination": "/spaces/anime-and-character-study" },
+  "accent": "cyan",
+  "captions": [
+    { "from": 15, "to": 115, "text": "Which character earns your trust first?" },
+    { "from": 115, "to": 330, "text": "The one who explains, changes, admits uncertainty, or protects someone unseen?" },
+    { "from": 330, "to": 445, "text": "Read the pattern inside Anime Analysis." }
+  ],
+  "legal": ["MANYWISE // ROOM ZERO // ADULTS 18+ // DRAFT"],
+  "assets": [],
+  "publishTargets": ["tiktok", "instagram-reels", "youtube-shorts", "x"],
+  "analyticsTags": ["signal-test", "character-analysis"],
+  "status": "draft"
+}

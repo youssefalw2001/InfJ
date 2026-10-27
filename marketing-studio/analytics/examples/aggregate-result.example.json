@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "status": "fictional-example",
+  "campaignId": "room-zero-launch",
+  "contentId": "signal-test-001",
+  "variantId": "a",
+  "template": "signal-test",
+  "platform": "instagram-reels",
+  "placement": "organic-short-video",
+  "window": {"start": "2026-10-28T00:00:00Z", "end": "2026-11-04T00:00:00Z", "timezone": "UTC"},
+  "sampleSize": 2400,
+  "metrics": {
+    "impressions": 2400,
+    "videoStarts": 2110,
+    "threeSecondViews": 1680,
+    "quarterViews": 1450,
+    "halfViews": 1130,
+    "threeQuarterViews": 850,
+    "completions": 620,
+    "averageWatchSeconds": 8.7,
+    "linkClicks": 96,
+    "accessRequests": 21,
+    "spend": 0
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "@manywise/marketing-studio",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio src/index.ts --public-dir ../public",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint . --max-warnings=0",
+    "validate": "tsx src/render/validate-content.ts",
+    "calendar": "tsx src/render/write-calendar.ts",
+    "captions": "tsx src/render/write-captions.ts",
+    "render": "tsx src/render/render-one.ts",
+    "render:all": "tsx src/render/render-all.ts",
+    "render:manifest": "tsx src/render/write-render-manifest.ts",
+    "render:samples": "tsx src/render/render-samples.ts",
+    "verify": "pnpm typecheck && pnpm lint && pnpm validate && pnpm calendar && pnpm captions"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.539",
+    "@remotion/cli": "4.0.539",
+    "@remotion/renderer": "4.0.539",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "remotion": "4.0.539",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "9.39.5",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "tsx": "4.23.15",
+    "typescript": "^5",
+    "typescript-eslint": "8.72.1",
+    "webpack": "5.112.2"
+  }
+}
