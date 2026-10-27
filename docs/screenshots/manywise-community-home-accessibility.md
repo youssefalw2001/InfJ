@@ -1,0 +1,255 @@
+- generic [active] [ref=f6e1] [box=0,-60,1440,2459]:
+  - link "Skip to main content" [ref=f6e2] [cursor=pointer] [box=10,-55,173,43]:
+    - /url: "#main-content"
+  - generic [ref=f6e88] [box=10,-60,1420,2459]:
+    - complementary [ref=f6e89] [box=79,0,238,1000]:
+      - link "Manywise home" [ref=f6e90] [cursor=pointer] [box=101,30,128,31]:
+        - /url: /home
+        - img "Manywise mark" [ref=f6e91] [box=101,31,29,29]
+        - generic [ref=f6e96] [box=139,30,90,31]: Manywise
+      - generic "Changes persist in this browser only" [ref=f6e97] [box=139,72,82,16]: Local demo
+      - navigation "Primary navigation" [ref=f6e99] [box=101,128,193,235]:
+        - link "Home" [ref=f6e100] [cursor=pointer] [box=101,128,193,43]:
+          - /url: /home
+        - link "Rooms" [ref=f6e105] [cursor=pointer] [box=101,176,193,43]:
+          - /url: /spaces
+        - link "Live rooms" [ref=f6e110] [cursor=pointer] [box=101,224,193,43]:
+          - /url: /chat
+        - link "Discover" [ref=f6e114] [cursor=pointer] [box=101,272,193,43]:
+          - /url: /search
+        - link "Notices 2 unread" [ref=f6e119] [cursor=pointer] [box=101,320,193,43]:
+          - /url: /notifications
+          - generic [ref=f6e123] [box=144,331,49,20]: Notices
+          - generic "2 unread" [ref=f6e124] [box=263,332,19,19]: "2"
+      - button "New thread" [ref=f6e125] [cursor=pointer] [box=101,388,193,42]
+      - generic [ref=f6e128] [box=101,923,193,53]:
+        - link "RF Riley Finch @riley-finch" [ref=f6e129] [cursor=pointer] [box=101,942,154,34]:
+          - /url: /members/riley-finch
+          - generic [ref=f6e130] [box=101,942,34,34]: RF
+          - generic [ref=f6e132] [box=144,944,57,31]:
+            - strong [ref=f6e133] [box=144,944,57,17]: Riley Finch
+            - generic [ref=f6e134] [box=144,961,57,14]: "@riley-finch"
+        - link "Settings" [ref=f6e135] [cursor=pointer] [box=260,942,34,34]:
+          - /url: /settings
+    - main [ref=f6e139] [box=317,-60,760,2459]:
+      - generic [ref=f6e140] [box=317,-60,759,2459]:
+        - generic [ref=f6e141] [box=361,-15,671,93]:
+          - generic [ref=f6e142] [box=361,-15,429,93]:
+            - paragraph [ref=f6e143] [box=361,-15,429,13]: Tuesday, 27 October
+            - heading "Good to see you, Riley." [level=1] [ref=f6e144] [box=361,5,429,45]
+            - paragraph [ref=f6e145] [box=361,59,429,19]: Here is what has been unfolding—not everything you missed.
+          - button "Start a discussion" [ref=f6e146] [cursor=pointer] [box=839,-15,193,42]
+        - generic [ref=f6e149] [box=361,115,671,45]:
+          - tablist "Choose feed" [ref=f6e150] [box=361,115,199,44]:
+            - tab "For you" [selected] [ref=f6e151] [cursor=pointer] [box=361,115,42,44]
+            - tab "Keeping up" [ref=f6e152] [cursor=pointer] [box=428,115,65,44]
+            - tab "Recent" [ref=f6e153] [cursor=pointer] [box=517,115,42,44]
+          - button "All your rooms" [ref=f6e154] [cursor=pointer] [box=921,120,110,33]
+        - generic [ref=f6e156] [box=361,182,671,73]:
+          - generic [ref=f6e157] [box=378,197,43,43]: RF
+          - button "What deserves more than a quick answer?" [ref=f6e159] [cursor=pointer] [box=433,197,582,43]
+        - navigation "Filter by room" [ref=f6e164] [box=357,277,679,42]:
+          - button "All rooms" [ref=f6e165] [cursor=pointer] [box=361,280,67,32]
+          - button "Inner Worlds" [ref=f6e166] [cursor=pointer] [box=434,280,97,32]
+          - button "Relationships" [ref=f6e168] [cursor=pointer] [box=538,280,103,32]
+          - button "Creativity" [ref=f6e170] [cursor=pointer] [box=648,280,84,32]
+          - button "Books & Ideas" [ref=f6e172] [cursor=pointer] [box=739,280,102,32]
+          - button "Quiet Corner" [ref=f6e174] [cursor=pointer] [box=848,280,99,32]
+          - button "Ask Manywise" [ref=f6e176] [cursor=pointer] [box=954,280,104,32]
+        - region "Discussions" [ref=f6e178] [box=361,350,671,1849]:
+          - generic [ref=f6e179] [box=361,350,671,14]:
+            - paragraph [ref=f6e180] [box=361,350,257,13]: A considered mix from your rooms
+            - generic [ref=f6e181] [box=845,350,186,14]: Chronological signals, no popularity rank
+          - article [ref=f6e185] [box=361,386,671,319]:
+            - generic [ref=f6e186] [box=385,409,623,34]:
+              - link "ML Mira Lantern @mira-lantern" [ref=f6e187] [cursor=pointer] [box=385,409,103,34]:
+                - /url: /members/mira-lantern
+                - generic [ref=f6e188] [box=385,409,34,34]: ML
+                - generic [ref=f6e190] [box=427,412,61,28]
+              - generic [ref=f6e193] [box=495,416,11,19]: in
+              - link "Inner Worlds" [ref=f6e194] [cursor=pointer] [box=514,419,68,14]:
+                - /url: /spaces/inner-worlds
+              - generic [ref=f6e196] [box=931,419,43,14]: 18 min ago
+              - button "Discussion options" [ref=f6e197] [cursor=pointer] [box=983,411,30,30]
+            - generic [ref=f6e202] [box=427,459,226,20]: Editor’s prompt · open to everyone
+            - link [ref=f6e203] [cursor=pointer] [box=385,479,623,125]:
+              - /url: /discussions/quieter-answer
+              - heading "A two-minute ritual for hearing the quieter answer" [level=2] [ref=f6e204] [box=427,494,581,29]
+              - paragraph [ref=f6e205] [box=427,531,581,61]: "I have been trying a tiny pause before decisions: feet on the floor, one slow breath, then two columns titled “what is loud” and “what is true.” I do not force an answer. Usually the useful distinction is between urgency borrowed from someone else and a value I can actually name."
+            - generic [ref=f6e206] [box=385,604,623,14]:
+              - generic [ref=f6e207] [box=427,604,49,14]: "#reflection"
+              - generic [ref=f6e208] [box=485,604,55,14]: "#boundaries"
+              - generic [ref=f6e209] [box=965,604,42,14]: 3 min read
+            - generic [ref=f6e210] [box=385,635,623,52]:
+              - generic "Acknowledge this discussion" [ref=f6e211] [box=385,653,283,30]:
+                - button "Resonates 18" [ref=f6e212] [cursor=pointer] [box=385,653,97,30]
+                - button "Thoughtful 11" [ref=f6e217] [cursor=pointer] [box=485,653,98,30]
+                - button "Support 3" [ref=f6e223] [cursor=pointer] [box=586,653,82,30]
+              - link "8 replies" [ref=f6e228] [cursor=pointer] [box=849,653,75,31]:
+                - /url: /discussions/quieter-answer#replies
+              - button "Keep discussion" [ref=f6e232] [cursor=pointer] [box=929,649,38,38]
+              - button "Share discussion" [ref=f6e235] [cursor=pointer] [box=970,649,38,38]
+          - article [ref=f6e242] [box=361,717,671,312]:
+            - generic [ref=f6e243] [box=385,740,623,34]:
+              - link "NV Noor Vale @noor-vale" [ref=f6e244] [cursor=pointer] [box=385,740,88,34]:
+                - /url: /members/noor-vale
+                - generic [ref=f6e245] [box=385,740,34,34]: NV
+                - generic [ref=f6e247] [box=427,743,46,28]
+              - generic [ref=f6e250] [box=481,748,11,19]: in
+              - link "Relationships" [ref=f6e251] [cursor=pointer] [box=500,750,73,14]:
+                - /url: /spaces/relationships
+              - generic [ref=f6e253] [box=930,750,45,14]: 42 min ago
+              - button "Discussion options" [ref=f6e254] [cursor=pointer] [box=983,742,30,30]
+            - link [ref=f6e259] [cursor=pointer] [box=385,774,623,154]:
+              - /url: /discussions/friendships-change-shape
+              - heading "When a friendship is good, but its shape has changed" [level=2] [ref=f6e260] [box=427,789,581,58]
+              - paragraph [ref=f6e261] [box=427,855,581,61]: I am learning that a friendship can remain real even when its rhythm changes. We used to speak every day; now we send one long voice note every few weeks. Part of me reads the quiet as loss, while another part sees a relationship adapting honestly.
+            - generic [ref=f6e262] [box=385,928,623,14]:
+              - generic [ref=f6e263] [box=427,928,50,14]: "#friendship"
+              - generic [ref=f6e264] [box=487,928,40,14]: "#change"
+              - generic [ref=f6e265] [box=965,928,43,14]: 4 min read
+            - generic [ref=f6e266] [box=385,959,623,52]:
+              - generic "Acknowledge this discussion" [ref=f6e267] [box=385,977,286,30]:
+                - button "Resonates 26" [pressed] [ref=f6e268] [cursor=pointer] [box=385,977,98,30]
+                - button "Thoughtful 9" [ref=f6e273] [cursor=pointer] [box=486,977,96,30]
+                - button "Support 12" [ref=f6e279] [cursor=pointer] [box=585,977,86,30]
+              - link "14 replies" [ref=f6e284] [cursor=pointer] [box=845,977,79,31]:
+                - /url: /discussions/friendships-change-shape#replies
+              - button "Remove from keeps" [ref=f6e288] [cursor=pointer] [box=929,973,38,38]
+              - button "Share discussion" [ref=f6e291] [cursor=pointer] [box=970,973,38,38]
+          - article [ref=f6e298] [box=361,1041,671,283]:
+            - generic [ref=f6e299] [box=385,1064,623,34]:
+              - link "JM Jonah Moss @jonah-moss" [ref=f6e300] [cursor=pointer] [box=385,1064,99,34]:
+                - /url: /members/jonah-moss
+                - generic [ref=f6e301] [box=385,1064,34,34]: JM
+                - generic [ref=f6e303] [box=427,1067,57,28]
+              - generic [ref=f6e306] [box=491,1072,11,19]: in
+              - link "Creativity" [ref=f6e307] [cursor=pointer] [box=510,1074,57,14]:
+                - /url: /spaces/creativity
+              - generic [ref=f6e309] [box=943,1074,31,14]: 1 hr ago
+              - button "Discussion options" [ref=f6e310] [cursor=pointer] [box=983,1066,30,30]
+            - link [ref=f6e315] [cursor=pointer] [box=385,1098,623,125]:
+              - /url: /discussions/unfinished-work
+              - heading "Making something before it has a job" [level=2] [ref=f6e316] [box=427,1113,581,29]
+              - paragraph [ref=f6e317] [box=427,1150,581,61]: This month I am drawing one five-minute map of an imaginary place each morning. No portfolio, no posting schedule, no lesson to extract. The absence of a goal felt uncomfortable for a week and then unexpectedly spacious.
+            - generic [ref=f6e318] [box=385,1224,623,14]:
+              - generic [ref=f6e319] [box=427,1224,78,14]: "#creative practice"
+              - generic [ref=f6e320] [box=514,1224,25,14]: "#rest"
+              - generic [ref=f6e321] [box=965,1224,42,14]: 3 min read
+            - generic [ref=f6e322] [box=385,1255,623,52]:
+              - generic "Acknowledge this discussion" [ref=f6e323] [box=385,1273,285,30]:
+                - button "Resonates 34" [ref=f6e324] [cursor=pointer] [box=385,1273,98,30]
+                - button "Thoughtful 17" [ref=f6e329] [cursor=pointer] [box=486,1273,99,30]
+                - button "Support 5" [ref=f6e335] [cursor=pointer] [box=587,1273,82,30]
+              - link "21 replies" [ref=f6e340] [cursor=pointer] [box=845,1272,79,31]:
+                - /url: /discussions/unfinished-work#replies
+              - button "Keep discussion" [ref=f6e344] [cursor=pointer] [box=929,1269,38,38]
+              - button "Share discussion" [ref=f6e347] [cursor=pointer] [box=970,1269,38,38]
+          - article [ref=f6e354] [box=361,1337,671,263]:
+            - generic [ref=f6e355] [box=385,1360,623,34]:
+              - link "SR Sana Reed @sana-reed" [ref=f6e356] [cursor=pointer] [box=385,1360,93,34]:
+                - /url: /members/sana-reed
+                - generic [ref=f6e357] [box=385,1360,34,34]: SR
+                - generic [ref=f6e359] [box=427,1363,51,28]
+              - generic [ref=f6e362] [box=486,1367,11,19]: in
+              - link "Work & Purpose" [ref=f6e363] [cursor=pointer] [box=505,1370,81,14]:
+                - /url: /spaces/work-and-purpose
+              - generic [ref=f6e365] [box=937,1370,38,14]: 2 hrs ago
+              - button "Discussion options" [ref=f6e366] [cursor=pointer] [box=983,1362,30,30]
+            - link [ref=f6e371] [cursor=pointer] [box=385,1394,623,105]:
+              - /url: /discussions/purpose-direction
+              - heading "Purpose is a direction, not a debt" [level=2] [ref=f6e372] [box=427,1409,581,29]
+              - paragraph [ref=f6e373] [box=427,1446,581,41]: "I used to treat meaningful work as proof that every hour had been justified. That made even service feel extractive. Lately I ask a smaller question: “What form of contribution can this season honestly sustain?”"
+            - generic [ref=f6e374] [box=385,1498,623,14]:
+              - generic [ref=f6e375] [box=427,1498,43,14]: "#purpose"
+              - generic [ref=f6e376] [box=479,1498,42,14]: "#burnout"
+              - generic [ref=f6e377] [box=965,1498,43,14]: 4 min read
+            - generic [ref=f6e378] [box=385,1529,623,52]:
+              - generic "Acknowledge this discussion" [ref=f6e379] [box=385,1547,291,30]:
+                - button "Resonates 29" [ref=f6e380] [cursor=pointer] [box=385,1547,98,30]
+                - button "Thoughtful 22" [ref=f6e385] [cursor=pointer] [box=486,1547,100,30]
+                - button "Support 14" [ref=f6e391] [cursor=pointer] [box=589,1547,86,30]
+              - link "17 replies" [ref=f6e396] [cursor=pointer] [box=845,1547,78,31]:
+                - /url: /discussions/purpose-direction#replies
+              - button "Remove from keeps" [ref=f6e400] [cursor=pointer] [box=929,1543,38,38]
+              - button "Share discussion" [ref=f6e403] [cursor=pointer] [box=970,1543,38,38]
+          - article [ref=f6e410] [box=361,1611,671,263]:
+            - generic [ref=f6e411] [box=385,1634,623,34]:
+              - link "TH Theo Harbor @theo-harbor" [ref=f6e412] [cursor=pointer] [box=385,1634,102,34]:
+                - /url: /members/theo-harbor
+                - generic [ref=f6e413] [box=385,1634,34,34]: TH
+                - generic [ref=f6e415] [box=427,1637,60,28]
+              - generic [ref=f6e418] [box=494,1642,11,19]: in
+              - link "Quiet Corner" [ref=f6e419] [cursor=pointer] [box=513,1644,69,14]:
+                - /url: /spaces/quiet-corner
+              - generic [ref=f6e421] [box=937,1644,38,14]: 4 hrs ago
+              - button "Discussion options" [ref=f6e422] [cursor=pointer] [box=983,1636,30,30]
+            - link [ref=f6e427] [cursor=pointer] [box=385,1668,623,105]:
+              - /url: /discussions/path-after-rain
+              - 'heading "Field note: the path after rain" [level=2] [ref=f6e428] [box=427,1683,581,29]'
+              - paragraph [ref=f6e429] [box=427,1720,581,41]: The volunteer trail crew stopped work for ten minutes because a line of salamanders was crossing the wet path. Nobody called it productivity, but it may have been the most useful thing we did all morning.
+            - generic [ref=f6e430] [box=385,1773,623,14]:
+              - generic [ref=f6e431] [box=427,1773,48,14]: "#field note"
+              - generic [ref=f6e432] [box=484,1773,47,14]: "#attention"
+              - generic [ref=f6e433] [box=965,1773,42,14]: 2 min read
+            - generic [ref=f6e434] [box=385,1804,623,52]:
+              - generic "Acknowledge this discussion" [ref=f6e435] [box=385,1822,282,30]:
+                - button "Resonates 23" [ref=f6e436] [cursor=pointer] [box=385,1822,98,30]
+                - button "Thoughtful 8" [ref=f6e441] [cursor=pointer] [box=486,1822,96,30]
+                - button "Support 2" [ref=f6e447] [cursor=pointer] [box=584,1822,82,30]
+              - link "6 replies" [ref=f6e452] [cursor=pointer] [box=849,1822,75,31]:
+                - /url: /discussions/path-after-rain#replies
+              - button "Keep discussion" [ref=f6e456] [cursor=pointer] [box=929,1818,38,38]
+              - button "Share discussion" [ref=f6e459] [cursor=pointer] [box=970,1818,38,38]
+          - article [ref=f6e466] [box=361,1886,671,312]:
+            - generic [ref=f6e467] [box=385,1909,623,34]:
+              - link "LF Lena Finch @lena-finch" [ref=f6e468] [cursor=pointer] [box=385,1909,93,34]:
+                - /url: /members/lena-finch
+                - generic [ref=f6e469] [box=385,1909,34,34]: LF
+                - generic [ref=f6e471] [box=427,1912,51,28]
+              - generic [ref=f6e474] [box=486,1917,11,19]: in
+              - link "Ask Manywise" [ref=f6e475] [cursor=pointer] [box=505,1919,74,14]:
+                - /url: /spaces/ask-manywise
+              - generic [ref=f6e477] [box=934,1919,41,14]: Yesterday
+              - button "Discussion options" [ref=f6e478] [cursor=pointer] [box=983,1911,30,30]
+            - link [ref=f6e483] [cursor=pointer] [box=385,1943,623,154]:
+              - /url: /discussions/polite-disagreement
+              - heading "Can we practice disagreement without turning cold?" [level=2] [ref=f6e484] [box=427,1958,581,58]
+              - paragraph [ref=f6e485] [box=427,2024,581,61]: I sometimes over-correct from people-pleasing into distance. I want disagreement that is direct and still leaves the other person fully human. What language has helped you be clear without pretending certainty?
+            - generic [ref=f6e486] [box=385,2098,623,14]:
+              - generic [ref=f6e487] [box=427,2098,73,14]: "#communication"
+              - generic [ref=f6e488] [box=509,2098,39,14]: "#nuance"
+              - generic [ref=f6e489] [box=965,2098,42,14]: 3 min read
+            - generic [ref=f6e490] [box=385,2129,623,52]:
+              - generic "Acknowledge this discussion" [ref=f6e491] [box=385,2147,284,30]:
+                - button "Resonates 41" [ref=f6e492] [cursor=pointer] [box=385,2147,97,30]
+                - button "Thoughtful 19" [ref=f6e497] [cursor=pointer] [box=485,2147,99,30]
+                - button "Support 7" [ref=f6e503] [cursor=pointer] [box=587,2147,82,30]
+              - link "32 replies" [ref=f6e508] [cursor=pointer] [box=844,2146,80,31]:
+                - /url: /discussions/polite-disagreement#replies
+              - button "Keep discussion" [ref=f6e512] [cursor=pointer] [box=929,2143,38,38]
+              - button "Share discussion" [ref=f6e515] [cursor=pointer] [box=970,2143,38,38]
+        - generic [ref=f6e522] [box=361,2241,671,69]:
+          - strong [ref=f6e525] [box=593,2268,206,25]: You have reached the end.
+          - generic [ref=f6e526] [box=542,2295,308,14]: Six conversations are enough for one visit. More will be here when they are.
+    - complementary [ref=f6e527] [box=1077,0,285,1000]:
+      - generic [ref=f6e528] [box=1101,35,237,249]:
+        - paragraph [ref=f6e529] [box=1123,60,193,13]: Today’s open prompt
+        - blockquote [ref=f6e530] [box=1123,95,193,113]: What have you changed your mind about gently?
+        - button "Write into the question ↗" [ref=f6e531] [cursor=pointer] [box=1123,229,193,30]:
+          - text: Write into the question
+          - generic [ref=f6e532] [box=1309,242,7,17]: ↗
+      - generic [ref=f6e533] [box=1101,316,237,93]:
+        - paragraph [ref=f6e534] [box=1101,316,237,13]: Room tone
+        - link "Quiet Corner 8 here · listening welcome" [ref=f6e535] [cursor=pointer] [box=1101,347,237,33]:
+          - /url: /chat?room=quiet-corner-chat
+          - generic [ref=f6e540] [box=1164,347,106,33]:
+            - strong [ref=f6e541] [box=1164,347,106,19]: Quiet Corner
+            - generic [ref=f6e542] [box=1164,365,106,14]: 8 here · listening welcome
+      - generic [ref=f6e546] [box=1130,440,208,119]:
+        - strong [ref=f6e547] [box=1130,442,143,45]: Care makes depth possible.
+        - paragraph [ref=f6e548] [box=1130,495,208,32]: Read the Community Guide before joining a difficult conversation.
+        - link "Read the guide" [ref=f6e549] [cursor=pointer] [box=1130,542,73,15]:
+          - /url: /guidelines
+      - paragraph [ref=f6e550] [box=1101,616,237,43]: Manywise uses personality type as a reflection lens—not a diagnosis. Independent and not affiliated with any personality-typing trademark owner.
+  - alert [ref=f6e87] [box=-1,2398,1,1]: Manywise — Come as nuanced as you are

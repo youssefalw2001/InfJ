@@ -1,0 +1,184 @@
+- generic [active] [ref=f4e1] [box=0,0,1440,4636]:
+  - link "Skip to main content" [ref=f4e2] [cursor=pointer] [box=10,-55,173,43]:
+    - /url: "#main-content"
+  - generic [ref=f4e3] [box=0,0,1440,4636]:
+    - banner [ref=f4e4] [box=0,0,1440,82]:
+      - link "Manywise home" [ref=f4e5] [cursor=pointer] [box=65,25,128,31]:
+        - /url: /
+        - img "Manywise mark" [ref=f4e6] [box=65,26,29,29]
+        - generic [ref=f4e11] [box=103,25,90,31]: Manywise
+      - navigation "Welcome navigation" [ref=f4e12] [box=595,30,251,20]:
+        - link "Inside" [ref=f4e13] [cursor=pointer] [box=595,30,38,20]:
+          - /url: "#inside"
+        - link "Values" [ref=f4e14] [cursor=pointer] [box=663,30,42,20]:
+          - /url: "#values"
+        - link "Community guide" [ref=f4e15] [cursor=pointer] [box=734,30,111,20]:
+          - /url: /guidelines
+      - generic [ref=f4e16] [box=845,23,530,36]:
+        - link "Sign in" [ref=f4e17] [cursor=pointer] [box=1176,30,43,20]:
+          - /url: /login
+        - link "Join thoughtfully" [ref=f4e18] [cursor=pointer] [box=1238,23,137,36]:
+          - /url: /join
+    - main [ref=f4e19] [box=0,82,1440,4220]:
+      - generic [ref=f4e20] [box=0,82,1440,715]:
+        - generic [ref=f4e21] [box=0,82,778,714]:
+          - generic [ref=f4e22] [box=101,172,364,20]: For people who identify with INFJ · and arrive with nuance
+          - heading [level=1] [ref=f4e23] [box=101,229,604,272]:
+            - text: A place to be
+            - emphasis [ref=f4e24] [box=101,302,495,216]: more than a type.
+          - paragraph [ref=f4e25] [box=101,533,604,61]: Manywise is a calmer online community for considered conversation, creative courage, friendship, and the useful complexity of being human.
+          - generic [ref=f4e26] [box=101,622,347,50]:
+            - link "Find your room" [ref=f4e27] [cursor=pointer] [box=101,622,173,50]:
+              - /url: /join
+            - link "Explore the demo" [ref=f4e30] [cursor=pointer] [box=283,622,164,50]:
+              - /url: /home
+          - paragraph [ref=f4e31] [box=101,689,358,17]: Personality type is a reflection lens—not a diagnosis, proof, or rulebook.
+        - generic "An abstract illustration of four distinct perspectives making a shared whole" [ref=f4e32] [box=778,82,662,714]:
+          - generic [ref=f4e33] [box=886,217,445,445]:
+            - generic [ref=f4e34] [box=886,224,222,222]: notice
+            - generic [ref=f4e36] [box=1101,217,222,222]: question
+            - generic [ref=f4e38] [box=894,439,222,222]: make
+            - generic [ref=f4e40] [box=1109,432,222,222]: revise
+            - img "Manywise mark" [ref=f4e42] [box=1078,408,62,62]
+          - generic [ref=f4e47] [box=1240,708,153,38]:
+            - generic [ref=f4e48] [box=1240,708,11,16]: "01"
+            - paragraph [ref=f4e49] [box=1264,708,129,38]: Distinct edges.Shared attention.
+      - region "Community qualities" [ref=f4e50] [box=0,797,1440,76]:
+        - generic [ref=f4e51] [box=322,822,223,26]: Depth without performance
+        - generic [ref=f4e53] [box=610,822,228,26]: Belonging without sameness
+        - generic [ref=f4e55] [box=903,822,215,26]: Curiosity without certainty
+      - generic [ref=f4e56] [box=110,873,1220,717]:
+        - generic [ref=f4e57] [box=182,1013,401,437]:
+          - paragraph [ref=f4e58] [box=182,1013,401,13]: Inside Manywise
+          - heading "Conversation with room to breathe." [level=2] [ref=f4e59] [box=182,1043,401,274]: Conversation withroom to breathe.
+          - paragraph [ref=f4e60] [box=182,1341,401,53]: No popularity ladders. No infinite feed. Find a room, follow a question, return when you have something real to add.
+          - link "See all conversation rooms" [ref=f4e61] [cursor=pointer] [box=182,1408,195,25]:
+            - /url: /spaces
+        - article [ref=f4e64] [box=712,1013,546,437]:
+          - generic [ref=f4e65] [box=758,1060,454,16]:
+            - generic [ref=f4e66] [box=758,1060,180,16]: Demo conversation preview
+            - generic [ref=f4e67] [box=1125,1060,87,16]: Inner Worlds
+          - heading "A two-minute ritual for hearing the quieter answer" [level=3] [ref=f4e68] [box=758,1116,454,82]
+          - paragraph [ref=f4e69] [box=758,1218,454,58]:
+            - text: "“I have been trying a tiny pause before decisions: two columns titled"
+            - emphasis [ref=f4e70] [box=867,1250,88,22]: what is loud
+            - text: and
+            - emphasis [ref=f4e71] [box=989,1250,87,22]: what is true
+            - text: …”
+          - generic [ref=f4e72] [box=758,1308,454,40]:
+            - generic [ref=f4e73] [box=758,1308,40,40]: ML
+            - generic [ref=f4e74] [box=808,1310,161,34]:
+              - strong [ref=f4e75] [box=808,1310,161,19]: Mira Lantern
+              - generic [ref=f4e76] [box=808,1329,161,16]: Fictional demo member · 18 min ago
+          - generic [ref=f4e77] [box=758,1372,454,36]:
+            - generic [ref=f4e78] [box=758,1391,69,17]: ♡ 18 resonate
+            - generic [ref=f4e79] [box=850,1391,51,17]: ◌ 8 replies
+            - generic [ref=f4e80] [box=923,1391,52,17]: 3 min read
+      - generic [ref=f4e81] [box=0,1591,1440,830]:
+        - generic [ref=f4e82] [box=110,1716,1220,69]:
+          - paragraph [ref=f4e83] [box=110,1771,308,13]: A room for the thought you are carrying
+          - heading "Start somewhere specific." [level=2] [ref=f4e84] [box=571,1716,759,69]
+        - generic [ref=f4e85] [box=110,1834,1220,461]:
+          - link "01 Self-awareness Inner Worlds Identity, intuition, values, boundaries, and the changing stories we tell about ourselves." [ref=f4e86] [cursor=pointer] [box=110,1835,407,230]:
+            - /url: /spaces/inner-worlds
+            - generic [ref=f4e87] [box=135,1863,34,173]: "01"
+            - generic [ref=f4e88] [box=187,1863,268,173]:
+              - text: Self-awareness
+              - heading "Inner Worlds" [level=3] [ref=f4e89] [box=187,1894,268,42]
+              - paragraph [ref=f4e90] [box=187,1949,268,38]: Identity, intuition, values, boundaries, and the changing stories we tell about ourselves.
+          - link "02 Connection Relationships Friendship, family, partnership, repair, and belonging without losing your edges." [ref=f4e93] [cursor=pointer] [box=517,1835,407,230]:
+            - /url: /spaces/relationships
+            - generic [ref=f4e94] [box=542,1863,34,173]: "02"
+            - generic [ref=f4e95] [box=594,1863,268,173]:
+              - text: Connection
+              - heading "Relationships" [level=3] [ref=f4e96] [box=594,1894,268,42]
+              - paragraph [ref=f4e97] [box=594,1949,268,38]: Friendship, family, partnership, repair, and belonging without losing your edges.
+          - link "03 The studio Creativity Writing, art, music, making, and protecting work before it needs to be useful." [ref=f4e100] [cursor=pointer] [box=923,1835,407,230]:
+            - /url: /spaces/creativity
+            - generic [ref=f4e101] [box=948,1863,34,173]: "03"
+            - generic [ref=f4e102] [box=1000,1863,269,173]:
+              - text: The studio
+              - heading "Creativity" [level=3] [ref=f4e103] [box=1000,1894,269,42]
+              - paragraph [ref=f4e104] [box=1000,1949,269,38]: Writing, art, music, making, and protecting work before it needs to be useful.
+          - link "04 Vocation Work & Purpose Ethical ambition, contribution, leadership, and work that leaves room for a life." [ref=f4e107] [cursor=pointer] [box=110,2065,407,230]:
+            - /url: /spaces/work-and-purpose
+            - generic [ref=f4e108] [box=135,2093,34,173]: "04"
+            - generic [ref=f4e109] [box=187,2093,268,173]:
+              - text: Vocation
+              - heading "Work & Purpose" [level=3] [ref=f4e110] [box=187,2124,268,42]
+              - paragraph [ref=f4e111] [box=187,2179,268,38]: Ethical ambition, contribution, leadership, and work that leaves room for a life.
+          - link "05 Practice Growth Change paced by curiosity rather than self-punishment, with practical experiments and reflection." [ref=f4e114] [cursor=pointer] [box=517,2065,407,230]:
+            - /url: /spaces/growth
+            - generic [ref=f4e115] [box=542,2093,34,173]: "05"
+            - generic [ref=f4e116] [box=594,2093,268,173]:
+              - text: Practice
+              - heading "Growth" [level=3] [ref=f4e117] [box=594,2124,268,42]
+              - paragraph [ref=f4e118] [box=594,2179,268,58]: Change paced by curiosity rather than self-punishment, with practical experiments and reflection.
+          - link "06 The reading room Books & Ideas Philosophy, psychology, literature, systems, and the pleasure of a difficult question." [ref=f4e121] [cursor=pointer] [box=923,2065,407,230]:
+            - /url: /spaces/books-and-ideas
+            - generic [ref=f4e122] [box=948,2093,34,173]: "06"
+            - generic [ref=f4e123] [box=1000,2093,269,173]:
+              - text: The reading room
+              - heading "Books & Ideas" [level=3] [ref=f4e124] [box=1000,2124,269,42]
+              - paragraph [ref=f4e125] [box=1000,2179,269,38]: Philosophy, psychology, literature, systems, and the pleasure of a difficult question.
+      - generic [ref=f4e128] [box=110,2420,1220,831]:
+        - generic [ref=f4e129] [box=182,2560,1076,161]:
+          - paragraph [ref=f4e130] [box=182,2560,226,13]: Designed around human limits
+          - heading "Not another machine for being noticed." [level=2] [ref=f4e131] [box=626,2560,632,137]: Not another machinefor being noticed.
+        - generic [ref=f4e132] [box=182,2781,1076,330]:
+          - article [ref=f4e133] [box=182,2782,269,329]:
+            - generic [ref=f4e137] [box=420,2814,10,16]: "01"
+            - heading "Depth at your pace" [level=3] [ref=f4e138] [box=207,2902,218,78]
+            - paragraph [ref=f4e139] [box=207,2992,218,66]: Durable threads, finite feeds, drafts, and quiet notification defaults make leaving and returning feel normal.
+          - article [ref=f4e140] [box=451,2782,269,329]:
+            - generic [ref=f4e143] [box=687,2814,12,16]: "02"
+            - heading "Connection with consent" [level=3] [ref=f4e144] [box=476,2902,218,78]
+            - paragraph [ref=f4e145] [box=476,2992,218,88]: Contact requests, private presence, pseudonyms, blocking, and clear audience choices put boundaries before access.
+          - article [ref=f4e146] [box=720,2782,269,329]:
+            - generic [ref=f4e150] [box=956,2814,12,16]: "03"
+            - heading "Stewardship you can see" [level=3] [ref=f4e151] [box=745,2902,218,78]
+            - paragraph [ref=f4e152] [box=745,2992,218,88]: Plain-language rules, private reporting, scoped moderator roles, and accountable decisions protect the container.
+          - article [ref=f4e153] [box=989,2782,269,329]:
+            - generic [ref=f4e157] [box=1226,2814,12,16]: "04"
+            - heading "A lens, never a label" [level=3] [ref=f4e158] [box=1014,2902,219,78]
+            - paragraph [ref=f4e159] [box=1014,2992,219,88]: No rarity claims, compatibility scores, type policing, amateur diagnosis, or pretending four letters explain a life.
+      - generic [ref=f4e160] [box=110,3251,1220,241]:
+        - generic [ref=f4e165] [box=317,3316,398,111]:
+          - paragraph [ref=f4e166] [box=317,3316,398,13]: Care is infrastructure
+          - heading "Warmth needs good boundaries." [level=2] [ref=f4e167] [box=317,3341,398,86]: Warmth needsgood boundaries.
+        - generic [ref=f4e168] [box=770,3313,498,117]:
+          - paragraph [ref=f4e169] [box=770,3313,498,77]: Manywise is built for adults, with a clear Community Guide, in-context reporting, block and mute controls, and no expectation that members provide professional care.
+          - link "Read how we gather" [ref=f4e170] [cursor=pointer] [box=770,3405,151,25]:
+            - /url: /guidelines
+      - generic [ref=f4e173] [box=0,3632,1440,670]:
+        - paragraph [ref=f4e176] [box=609,3813,221,13]: Bring the unfinished thought
+        - heading "Come as nuanced as you are." [level=2] [ref=f4e177] [box=375,3842,691,180]: Come as nuancedas you are.
+        - paragraph [ref=f4e178] [box=470,4046,500,47]: Make a profile that sounds like a person, choose your pace, and find the room that fits today.
+        - link "Begin with intention" [ref=f4e179] [cursor=pointer] [box=615,4121,210,50]:
+          - /url: /join
+    - contentinfo [ref=f4e182] [box=60,4302,1320,334]:
+      - generic [ref=f4e183] [box=132,4372,510,108]:
+        - link "Manywise home" [ref=f4e184] [cursor=pointer] [box=132,4372,128,31]:
+          - /url: /
+          - img "Manywise mark" [ref=f4e185] [box=132,4373,29,29]
+          - generic [ref=f4e190] [box=170,4372,90,31]: Manywise
+        - paragraph [ref=f4e191] [box=132,4412,350,41]: A thoughtful social home for people who use INFJ as a lens, never a box.
+      - generic [ref=f4e192] [box=692,4372,283,108]:
+        - strong [ref=f4e193] [box=692,4372,56,17]: Explore
+        - link "Product demo" [ref=f4e194] [cursor=pointer] [box=692,4406,78,19]:
+          - /url: /home
+        - link "Rooms" [ref=f4e195] [cursor=pointer] [box=692,4433,38,19]:
+          - /url: /spaces
+        - link "Community guide" [ref=f4e196] [cursor=pointer] [box=692,4461,98,19]:
+          - /url: /guidelines
+      - generic [ref=f4e197] [box=1025,4372,283,108]:
+        - strong [ref=f4e198] [box=1025,4372,57,17]: Project
+        - link "Privacy" [ref=f4e199] [cursor=pointer] [box=1025,4406,40,19]:
+          - /url: /privacy
+        - link "System health" [ref=f4e200] [cursor=pointer] [box=1025,4433,79,19]:
+          - /url: /api/health
+        - link "Source repository placeholder" [ref=f4e201] [cursor=pointer] [box=1025,4461,107,19]:
+          - /url: https://github.com
+          - text: Open-source ready
+      - paragraph [ref=f4e202] [box=132,4565,1176,42]: Independent and not affiliated with, endorsed by, or sponsored by any personality-typing trademark owner. © 2026 Manywise.
+  - alert [ref=f4e203] [box=-1,4635,1,1]
